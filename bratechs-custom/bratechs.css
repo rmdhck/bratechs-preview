@@ -1,0 +1,450 @@
+/* ==========================================================================
+   BRATECHS — melhorias visuais pontuais (home)
+   Regra: nenhuma cor ou fonte nova. Só a paleta já usada no site:
+     #2334B2 (fundo)  #2A3BBF (boxes)  #16A6FC -> #3FF9A5 (degradê dos botões)
+     #FFFFFF / #C9CFFF (textos)
+   Fonte: mesma declaração do Elementor -> "Raleway", Sans-serif
+   No WordPress: colar em Aparência > Personalizar > CSS adicional
+   ========================================================================== */
+
+:root {
+  --bt-bg: #2334B2;
+  --bt-box: #2A3BBF;
+  --bt-blue: #16A6FC;
+  --bt-green: #3FF9A5;
+  --bt-grad: linear-gradient(120deg, #16A6FC 0%, #3FF9A5 100%);
+  --bt-line: rgba(255, 255, 255, .12);
+  --bt-line-strong: rgba(255, 255, 255, .22);
+  --bt-shadow: 0 30px 60px -30px rgba(8, 14, 70, .75), inset 0 1px 0 rgba(255, 255, 255, .08);
+  --bt-font: "Raleway", Sans-serif;
+}
+
+/* ---------------------------------------------------------------------------
+   2) FAIXA DE DESTAQUES no hero (abaixo dos botões)
+   WP: widget "HTML" logo abaixo do container dos botões (snippet hero-stats.html)
+   --------------------------------------------------------------------------- */
+.bt-hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+  max-width: 655px;
+}
+.bt-hero-stats .bt-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 16px;
+  border: 1px solid var(--bt-line);
+  border-radius: 10px;
+  background: rgba(35, 52, 178, .45);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  font-family: var(--bt-font);
+}
+.bt-hero-stats .bt-stat strong {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.2em;
+  background: var(--bt-grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.bt-hero-stats .bt-stat span {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.3em;
+  color: #FFFFFF;
+  opacity: .85;
+}
+@media (max-width: 767px) {
+  .bt-hero-stats { grid-template-columns: 1fr; max-width: none; }
+  .bt-hero-stats .bt-stat { flex-direction: row; align-items: baseline; gap: 10px; }
+}
+
+/* ---------------------------------------------------------------------------
+   4) CARDS COM PROFUNDIDADE — boxes das seções
+   --------------------------------------------------------------------------- */
+.elementor-64 .elementor-element.elementor-element-32fba8c,   /* Quem somos      */
+.elementor-64 .elementor-element.elementor-element-bcec2c2,   /* Soluções        */
+.elementor-64 .elementor-element.elementor-element-1528f4b > .e-con-inner, /* Como funciona */
+.elementor-64 .elementor-element.elementor-element-02d82a9,   /* Diferenciais    */
+.elementor-64 .elementor-element.elementor-element-4459ba4 {  /* Fale conosco    */
+  border: 1px solid var(--bt-line);
+  border-radius: 14px;
+  box-shadow: var(--bt-shadow);
+}
+.elementor-64 .elementor-element.elementor-element-02d82a9 { overflow: hidden; }
+
+/* Itens dos Diferenciais: leve "levantar" no hover (o degradê original continua) */
+.elementor-64 .elementor-element-dd80c5d,
+.elementor-64 .elementor-element-c56c23f,
+.elementor-64 .elementor-element-77eb68a {
+  transition: transform .35s ease, box-shadow .35s ease, background .3s;
+}
+.elementor-64 .elementor-element-dd80c5d:hover,
+.elementor-64 .elementor-element-c56c23f:hover,
+.elementor-64 .elementor-element-77eb68a:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px -18px rgba(63, 249, 165, .45);
+}
+
+/* Botões com degradê: brilho suave no hover */
+.jupiterx-main a.raven-button,
+.jupiterx-header a.raven-button { transition: box-shadow .35s ease, transform .35s ease; }
+.jupiterx-main a.raven-button:hover,
+.jupiterx-header a.raven-button:hover {
+  box-shadow: 0 12px 32px -10px rgba(63, 249, 165, .55), 0 6px 22px -12px rgba(22, 166, 252, .6);
+  transform: translateY(-2px);
+}
+
+/* ---------------------------------------------------------------------------
+   1) ÓRBITA — "Portfólio de Serviços"
+   Os 5 cards ORIGINAIS do Elementor (com os popups) são reposicionados em
+   volta do escudo da Bratechs. Só CSS: textos continuam editáveis no Elementor.
+   --------------------------------------------------------------------------- */
+@media (min-width: 1025px) {
+  .elementor-64 .elementor-element.elementor-element-96853f6 {
+    --orbit-h: 640px;
+    position: relative;
+    display: block;
+    height: var(--orbit-h);
+    max-width: 980px;
+    width: 100%;
+    margin: 50px auto 0;
+    border: 0 !important;
+    background-color: transparent !important;
+    background:
+      /* linhas tracejadas do centro até cada card (animadas) */
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-490 -320 980 640'%3E%3Cg stroke='%233FF9A5' stroke-opacity='.55' stroke-width='1.5' stroke-dasharray='6 8' fill='none'%3E%3Cpath d='M0 -60 L0 -205'/%3E%3Cpath d='M57 -19 L300 -78'/%3E%3Cpath d='M35 49 L190 190'/%3E%3Cpath d='M-35 49 L-190 190'/%3E%3Cpath d='M-57 -19 L-300 -78'/%3E%3Canimate attributeName='stroke-dashoffset' from='0' to='-28' dur='1.6s' repeatCount='indefinite'/%3E%3C/g%3E%3C/svg%3E") center / 980px 640px no-repeat,
+      /* anéis concêntricos */
+      radial-gradient(circle at center, transparent 0 129px, rgba(255,255,255,.10) 130px, transparent 131px 209px, rgba(255,255,255,.08) 210px, transparent 211px 299px, rgba(255,255,255,.05) 300px, transparent 301px),
+      /* brilho central */
+      radial-gradient(circle at center, rgba(63, 249, 165, .16) 0, rgba(22, 166, 252, .12) 90px, transparent 260px);
+  }
+  .elementor-64 .elementor-element.elementor-element-96853f6 > .elementor-motion-effects-container { display: none; }
+
+  /* anel tracejado girando */
+  .elementor-64 .elementor-element.elementor-element-96853f6::before {
+    content: "";
+    position: absolute;
+    left: 50%; top: 50%;
+    width: 340px; height: 340px;
+    margin: -170px 0 0 -170px;
+    border-radius: 50%;
+    border: 1px dashed rgba(63, 249, 165, .35);
+    animation: bt-spin 40s linear infinite;
+    pointer-events: none;
+  }
+  /* escudo da Bratechs no centro */
+  .elementor-64 .elementor-element.elementor-element-96853f6::after {
+    content: "";
+    position: absolute;
+    left: 50%; top: 50%;
+    width: 120px; height: 120px;
+    margin: -60px 0 0 -60px;
+    border-radius: 28px;
+    border: 1px solid var(--bt-line-strong);
+    background: url("../wp-content/uploads/2025/04/FAV-Bratechs-300x300.png") center / 64px no-repeat, var(--bt-box);
+    box-shadow: 0 0 0 10px rgba(42, 59, 191, .55), 0 0 60px rgba(63, 249, 165, .35), 0 0 120px rgba(22, 166, 252, .35);
+    animation: bt-pulse 4s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  /* os 5 cards */
+  .elementor-64 .elementor-element-96853f6 > .e-con {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 230px;
+    min-height: 0;
+    translate: calc(-50% + var(--x)) calc(-50% + var(--y));
+    border: 1px solid var(--bt-line);
+    border-radius: 14px;
+    box-shadow: var(--bt-shadow);
+    animation: bt-float 6s ease-in-out infinite;
+    animation-delay: var(--d, 0s);
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+    transition: box-shadow .35s ease, border-color .35s ease;
+    --padding-top: 26px; --padding-bottom: 24px; --padding-left: 18px; --padding-right: 18px;
+  }
+  .elementor-64 .elementor-element-96853f6 > .e-con:hover {
+    border-color: rgba(63, 249, 165, .6);
+    box-shadow: 0 20px 50px -18px rgba(63, 249, 165, .55);
+    animation-play-state: paused;
+    z-index: 2;
+  }
+  .elementor-64 .elementor-element-1a5adb5 { --x: 0px;    --y: -235px; --d: 0s; }    /* Endpoint   */
+  .elementor-64 .elementor-element-f01e9ff { --x: 345px;  --y: -85px;  --d: -1.2s; } /* Firewall   */
+  .elementor-64 .elementor-element-7729c76 { --x: 215px;  --y: 210px;  --d: -2.4s; } /* Email      */
+  .elementor-64 .elementor-element-1439c30 { --x: -215px; --y: 210px;  --d: -3.6s; } /* Cloud      */
+  .elementor-64 .elementor-element-270a2cc { --x: -345px; --y: -85px;  --d: -4.8s; } /* Monitor.   */
+}
+
+/* ícone de cada card (cor = degradê da marca) */
+.elementor-64 .elementor-element-96853f6 > .e-con::before {
+  content: "" !important;
+  /* o Elementor usa o ::before dos containers como overlay absoluto: neutraliza */
+  position: relative !important;
+  inset: auto !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin: 0 auto 12px;
+  border-radius: 12px;
+  border: 1px solid var(--bt-line-strong);
+  background:
+    var(--bt-icon) center / 22px no-repeat,
+    rgba(255, 255, 255, .06);
+  flex: none;
+}
+.elementor-64 .elementor-element-96853f6 > .e-con:hover::before { background-color: rgba(255, 255, 255, .18); }
+.elementor-64 .elementor-element-1a5adb5 { --bt-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233FF9A5' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='12' rx='2'/%3E%3Cpath d='M2 20h20M9 10l2 2 4-4'/%3E%3C/svg%3E"); }
+.elementor-64 .elementor-element-f01e9ff { --bt-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233FF9A5' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='4' width='18' height='16' rx='2'/%3E%3Cpath d='M3 9.3h18M3 14.7h18M9 4v5.3M15 9.3v5.4M9 14.7V20'/%3E%3C/svg%3E"); }
+.elementor-64 .elementor-element-7729c76 { --bt-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233FF9A5' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='5' width='18' height='14' rx='2'/%3E%3Cpath d='m3 7 9 6 9-6'/%3E%3C/svg%3E"); }
+.elementor-64 .elementor-element-1439c30 { --bt-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233FF9A5' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 18a4.5 4.5 0 0 1-.6-8.96A6 6 0 0 1 18 9.5a4 4 0 0 1-.5 8.5Z'/%3E%3Cpath d='m10 13.5 1.5 1.5 3-3'/%3E%3C/svg%3E"); }
+.elementor-64 .elementor-element-270a2cc { --bt-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233FF9A5' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 12h4l2.5-6 5 12 2.5-6h4'/%3E%3C/svg%3E"); }
+/* no hover o card vira degradê verde -> ícone branco para manter contraste */
+.elementor-64 .elementor-element-96853f6 > .e-con:hover { --bt-icon-hover: 1; }
+.elementor-64 .elementor-element-96853f6 > .e-con:hover::before { filter: brightness(0) invert(1); }
+
+/* tablet/celular: sem órbita, cards em grade com o mesmo acabamento */
+@media (max-width: 1024px) {
+  .elementor-64 .elementor-element.elementor-element-96853f6 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    border: 0 !important;
+    background: none !important;
+  }
+  .elementor-64 .elementor-element.elementor-element-96853f6 > .elementor-motion-effects-container { display: none; }
+  .elementor-64 .elementor-element-96853f6 > .e-con {
+    width: auto;
+    border: 1px solid var(--bt-line);
+    border-radius: 14px;
+    box-shadow: var(--bt-shadow);
+  }
+}
+@media (max-width: 767px) {
+  .elementor-64 .elementor-element.elementor-element-96853f6 { grid-template-columns: 1fr; }
+}
+
+@keyframes bt-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@keyframes bt-spin  { to { transform: rotate(360deg); } }
+@keyframes bt-pulse {
+  0%, 100% { box-shadow: 0 0 0 10px rgba(42,59,191,.55), 0 0 50px rgba(63,249,165,.28), 0 0 110px rgba(22,166,252,.30); }
+  50%      { box-shadow: 0 0 0 14px rgba(42,59,191,.40), 0 0 75px rgba(63,249,165,.45), 0 0 150px rgba(22,166,252,.42); }
+}
+
+/* ---------------------------------------------------------------------------
+   5) "Operação contínua" — lista vira cards
+   --------------------------------------------------------------------------- */
+.elementor-64 .elementor-element-8238396 .elementor-icon-list-items {
+  display: grid;
+  gap: 10px;
+}
+.elementor-64 .elementor-element-8238396 .elementor-icon-list-items .elementor-icon-list-item {
+  margin: 0 !important;
+  padding: 14px 18px 14px 14px !important;
+  align-items: flex-start;
+  border: 1px solid var(--bt-line);
+  border-radius: 12px;
+  background: var(--bt-box);
+  box-shadow: 0 14px 30px -20px rgba(8, 14, 70, .8);
+  transition: transform .3s ease, border-color .3s ease;
+}
+.elementor-64 .elementor-element-8238396 .elementor-icon-list-item:hover {
+  transform: translateX(6px);
+  border-color: rgba(63, 249, 165, .5);
+}
+.elementor-64 .elementor-element-8238396 .elementor-icon-list-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 34px;
+  height: 34px;
+  margin-right: 14px;
+  padding: 0 !important;
+  border-radius: 10px;
+  border: 1px solid var(--bt-line-strong);
+  background: rgba(63, 249, 165, .10);
+}
+.elementor-64 .elementor-element-8238396 .elementor-icon-list-text { line-height: 1.45em; }
+.elementor-64 .elementor-element-8238396 .elementor-icon-list-text b { display: inline-block; margin-bottom: 2px; }
+
+/* ---------------------------------------------------------------------------
+   3) "Como funciona" — linha do tempo vertical
+   As 2 linhas originais viram uma grade: título fixo à esquerda, etapas à direita
+   --------------------------------------------------------------------------- */
+@media (min-width: 768px) {
+  .elementor-64 .elementor-element-1528f4b > .e-con-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    column-gap: 60px;
+    padding: 60px;
+    background: var(--bt-box);
+    position: relative;
+  }
+  .elementor-64 .elementor-element-1528f4b .elementor-element-5ea78e0,
+  .elementor-64 .elementor-element-1528f4b .elementor-element-a8f538a { display: contents; }
+  .elementor-64 .elementor-element-5ea78e0 > .elementor-motion-effects-container,
+  .elementor-64 .elementor-element-a8f538a > .elementor-motion-effects-container { display: none; }
+
+  .elementor-64 .elementor-element-27832aa {
+    grid-column: 1;
+    grid-row: 1 / span 5;
+    align-self: start;
+    position: sticky;
+    top: 140px;
+    gap: 20px;
+  }
+  .elementor-64 .elementor-element-07ce65b { text-align: start; }
+
+  .elementor-64 .elementor-element-5ab56ce,
+  .elementor-64 .elementor-element-f680dad,
+  .elementor-64 .elementor-element-679ab27,
+  .elementor-64 .elementor-element-c4a8e07,
+  .elementor-64 .elementor-element-7750d8b { grid-column: 2; }
+  .elementor-64 .elementor-element-6a7f8ba { grid-column: 1 / -1; }
+}
+
+/* cada etapa: círculo numerado + texto */
+.elementor-64 .elementor-element-5ab56ce,
+.elementor-64 .elementor-element-f680dad,
+.elementor-64 .elementor-element-679ab27,
+.elementor-64 .elementor-element-c4a8e07,
+.elementor-64 .elementor-element-7750d8b {
+  position: relative;
+  display: grid !important;
+  grid-template-columns: 56px 1fr;
+  column-gap: 20px;
+  align-items: center;
+  margin-bottom: 14px;
+  padding: 18px 20px !important;
+  border: 1px solid var(--bt-line);
+  border-radius: 14px;
+  background: rgba(35, 52, 178, .55);
+  transition: border-color .3s ease, transform .3s ease;
+}
+.elementor-64 .elementor-element-5ab56ce:hover,
+.elementor-64 .elementor-element-f680dad:hover,
+.elementor-64 .elementor-element-679ab27:hover,
+.elementor-64 .elementor-element-c4a8e07:hover,
+.elementor-64 .elementor-element-7750d8b:hover { border-color: rgba(63, 249, 165, .5); transform: translateX(4px); }
+
+/* número: o "01" contornado vira círculo com o degradê da marca */
+.elementor-64 .elementor-element-271b632,
+.elementor-64 .elementor-element-21bee54,
+.elementor-64 .elementor-element-d8eb48f,
+.elementor-64 .elementor-element-676beb0,
+.elementor-64 .elementor-element-ffaed78 { position: relative; z-index: 1; }
+.elementor-64 .elementor-element-271b632 > .elementor-widget-container,
+.elementor-64 .elementor-element-21bee54 > .elementor-widget-container,
+.elementor-64 .elementor-element-d8eb48f > .elementor-widget-container,
+.elementor-64 .elementor-element-676beb0 > .elementor-widget-container,
+.elementor-64 .elementor-element-ffaed78 > .elementor-widget-container { margin: 0 !important; }
+.elementor-64 .elementor-element-271b632 .elementor-heading-title,
+.elementor-64 .elementor-element-21bee54 .elementor-heading-title,
+.elementor-64 .elementor-element-d8eb48f .elementor-heading-title,
+.elementor-64 .elementor-element-676beb0 .elementor-heading-title,
+.elementor-64 .elementor-element-ffaed78 .elementor-heading-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--bt-grad);
+  box-shadow: 0 0 0 6px rgba(42, 59, 191, .9), 0 10px 26px -8px rgba(63, 249, 165, .6);
+  font-size: 20px !important;
+  line-height: 1 !important;
+  color: var(--bt-bg) !important;
+  -webkit-text-stroke-width: 0 !important;
+}
+.elementor-64 .elementor-element-172fb60,
+.elementor-64 .elementor-element-4905353,
+.elementor-64 .elementor-element-2708fd3,
+.elementor-64 .elementor-element-4f526bd,
+.elementor-64 .elementor-element-2a8c394 { grid-column: 2; }
+.elementor-64 .elementor-element-172fb60 p,
+.elementor-64 .elementor-element-4905353 p,
+.elementor-64 .elementor-element-2708fd3 p,
+.elementor-64 .elementor-element-4f526bd p,
+.elementor-64 .elementor-element-2a8c394 p { margin: 0; }
+
+/* linha vertical que "preenche" conforme a rolagem (JS controla --bt-progress) */
+@media (min-width: 768px) {
+  .elementor-64 .elementor-element-1528f4b > .e-con-inner::before,
+  .elementor-64 .elementor-element-1528f4b > .e-con-inner::after {
+    content: "";
+    position: absolute;
+    left: var(--bt-line-left, 50%);
+    top: var(--bt-line-top, 100px);
+    width: 2px;
+    height: var(--bt-line-h, 70%);
+    border-radius: 2px;
+    background: rgba(255, 255, 255, .12);
+    pointer-events: none;
+  }
+  .elementor-64 .elementor-element-1528f4b > .e-con-inner::after {
+    background: linear-gradient(180deg, #16A6FC 0%, #3FF9A5 100%);
+    transform-origin: top;
+    transform: scaleY(var(--bt-progress, 0));
+    box-shadow: 0 0 12px rgba(63, 249, 165, .6);
+  }
+}
+@media (max-width: 767px) {
+  .elementor-64 .elementor-element-1528f4b > .e-con-inner { border-radius: 14px; background: var(--bt-box); overflow: hidden; }
+  .elementor-64 .elementor-element-5ea78e0,
+  .elementor-64 .elementor-element-a8f538a { --gap: 0px; --row-gap: 0px; }
+}
+
+/* ---------------------------------------------------------------------------
+   8) PARCEIROS — logos monocromáticos; no hover voltam ao original
+   --------------------------------------------------------------------------- */
+.elementor-64 .elementor-element-9a6e6c2 > .elementor-widget-container,
+.elementor-64 .elementor-element-4fe97b2 > .elementor-widget-container {
+  border: 1px solid var(--bt-line-strong);
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, .04) !important;
+  transition: background-color .4s ease, transform .4s ease, box-shadow .4s ease;
+}
+.elementor-64 .elementor-element-9a6e6c2 img,
+.elementor-64 .elementor-element-4fe97b2 img {
+  filter: brightness(0) invert(1);
+  opacity: .85;
+  transition: filter .4s ease, opacity .4s ease;
+}
+.elementor-64 .elementor-element-9a6e6c2 > .elementor-widget-container:hover,
+.elementor-64 .elementor-element-4fe97b2 > .elementor-widget-container:hover {
+  background-color: #FFFFFF !important;
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px -18px rgba(63, 249, 165, .55);
+}
+.elementor-64 .elementor-element-9a6e6c2 > .elementor-widget-container:hover img,
+.elementor-64 .elementor-element-4fe97b2 > .elementor-widget-container:hover img { filter: none; opacity: 1; }
+
+/* ---------------------------------------------------------------------------
+   7) ANIMAÇÃO AO ROLAR (o JS adiciona as classes; sem JS tudo aparece normal)
+   --------------------------------------------------------------------------- */
+html.bt-js .bt-reveal {
+  opacity: 0;
+  translate: 0 28px;
+  transition: opacity .8s ease, translate .8s cubic-bezier(.2, .7, .2, 1);
+  transition-delay: var(--bt-delay, 0s);
+}
+html.bt-js .bt-reveal.is-in { opacity: 1; translate: 0 0; }
+/* a órbita entra só com fade (os cards já usam translate para se posicionar) */
+
+@media (prefers-reduced-motion: reduce) {
+  html.bt-js .bt-reveal { opacity: 1; translate: none; transition: none; }
+  .elementor-64 .elementor-element-96853f6 > .e-con,
+  .elementor-64 .elementor-element.elementor-element-96853f6::before,
+  .elementor-64 .elementor-element.elementor-element-96853f6::after { animation: none; }
+}

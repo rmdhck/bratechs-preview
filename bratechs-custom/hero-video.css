@@ -1,0 +1,95 @@
+/* ==========================================================
+   Bratechs — Hero (#inicio) com vídeo de fundo
+   Usa apenas a cor já existente do tema: #2334b2 (rgb 35,52,178)
+   ========================================================== */
+
+/* Box do hero vira o "palco" do vídeo */
+#inicio.elementor-element-bdb8d39 {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* Camada do vídeo (cobre o box inteiro, inclusive atrás do texto) */
+#inicio .bt-hero-video {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+#inicio .bt-hero-video video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 60% center;
+}
+
+/* Esfumaçado: desfoque forte atrás do texto que vai sumindo para a direita */
+#inicio .bt-hero-video .bt-hero-smoke {
+  position: absolute;
+  inset: 0;
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 35%, rgba(0,0,0,.6) 52%, transparent 72%);
+  mask-image: linear-gradient(90deg, #000 0%, #000 35%, rgba(0,0,0,.6) 52%, transparent 72%);
+}
+
+/* Véu na cor do tema: sólido à esquerda, revelando o vídeo aos poucos.
+   Topo e base também fundem com o azul para não "cortar" o layout. */
+#inicio .bt-hero-video .bt-hero-tint {
+  position: absolute;
+  inset: 0;
+  background:
+    /* topo: azul sólido atrás do menu (que é sobreposto ao hero), depois revela */
+    linear-gradient(180deg, #2334b2 0, #2334b2 170px, rgba(35,52,178,0) 320px, rgba(35,52,178,0) 82%, #2334b2 100%),
+    linear-gradient(90deg,
+      rgba(35,52,178,.97) 0%,
+      rgba(35,52,178,.92) 30%,
+      rgba(35,52,178,.70) 46%,
+      rgba(35,52,178,.35) 64%,
+      rgba(35,52,178,.18) 100%);
+}
+
+/* O vídeo fica num widget HTML (classe "bt-hero-video-widget") dentro do hero.
+   O widget "some" do layout e o vídeo se posiciona em relação ao box #inicio */
+#inicio .bt-hero-video-widget,
+#inicio .bt-hero-video-widget > .elementor-widget-container { display: contents; }
+#inicio > .e-con-inner { position: static; }
+
+/* Conteúdo (título, texto, botões) acima do vídeo */
+#inicio > .e-con-inner > .e-con {
+  position: relative;
+  z-index: 2;
+}
+
+/* A imagem isométrica sai, mas o espaço dela é mantido (layout idêntico) */
+#inicio .elementor-element-42f20ff {
+  visibility: hidden;
+}
+
+/* Tablet/celular: coluna da imagem empilha embaixo do texto -> remove o vão
+   e escurece mais o vídeo para manter a leitura */
+@media (max-width: 1024px) {
+  #inicio .elementor-element-35bd7db { display: none; }
+  #inicio.elementor-element-bdb8d39 { --padding-bottom: 80px; }
+  #inicio .bt-hero-video .bt-hero-smoke {
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+  #inicio .bt-hero-video .bt-hero-tint {
+    background:
+      linear-gradient(180deg, #2334b2 0, #2334b2 90px, rgba(35,52,178,.55) 200px, rgba(35,52,178,.55) 80%, #2334b2 100%);
+  }
+}
+
+/* Quem prefere menos movimento vê só a imagem de capa */
+@media (prefers-reduced-motion: reduce) {
+  #inicio .bt-hero-video video { display: none; }
+  #inicio .bt-hero-video {
+    background: url(../wp-content/uploads/video/hero-bg-poster.jpg) 60% center / cover no-repeat;
+  }
+}
