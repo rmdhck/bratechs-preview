@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="../assets/css/radar-embed.css" />
 </head>
 <body>
 
@@ -24,6 +25,7 @@
       <a href="#ecossistema">Ecossistema</a>
       <a href="#metodo">Como funciona</a>
       <a href="#diferenciais">Diferenciais</a>
+      <a href="../newsletter/" class="nav__radar"><i class="chip__dot"></i>Radar</a>
       <a href="#contato" class="nav__cta-mobile">Contato</a>
     </nav>
     <a href="#contato" class="btn btn--primary btn--sm nav__cta">
@@ -213,6 +215,18 @@
   </div>
 </section>
 
+<!-- ===================== RADAR (notícia do dia) ===================== -->
+<section class="section" id="radar">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="chip"><i class="chip__dot"></i> Radar Bratechs · novas notícias às 6h, 12h e 18h</span>
+      <h2>O que está acontecendo<br /><span class="grad">agora no mundo cyber.</span></h2>
+      <p>Todos os dias, às 6h, 12h e 18h, publicamos as notícias de segurança digital que mais importam para a sua empresa.</p>
+    </header>
+    <div data-radar-embed data-base="../" class="reveal"></div>
+  </div>
+</section>
+
 <!-- ===================== MÉTODO ===================== -->
 <section class="section" id="metodo">
   <div class="container">
@@ -310,5 +324,6 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="../assets/js/radar-embed.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,58 @@
+# Radar Bratechs — publica uma edição com as 3 notícias mais relevantes
+# às 06h, 12h e 18h (horário de Brasília = UTC-3, sem horário de verão).
+# Obs.: o GitHub pode atrasar execuções agendadas em alguns minutos.
+name: Radar Bratechs
+
+on:
+  schedule:
+    - cron: "0 9 * * *"    # 06h BRT
+    - cron: "0 15 * * *"   # 12h BRT
+    - cron: "0 21 * * *"   # 18h BRT
+  workflow_dispatch: {}     # permite rodar manualmente pela aba Actions
+
+permissions:
+  contents: write           # gravar data/news.json
+  pages: write              # disparar a republicação do GitHub Pages
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependências
+        working-directory: scripts/newsletter
+        run: npm ci --no-audit --no-fund
+
+      - name: Varrer fontes e montar a edição
+        working-directory: scripts/newsletter
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # opcional: sem ela, publica o texto original dos feeds
+        run: node radar.mjs
+
+      - name: Publicar edição
+        run: |
+          if git diff --quiet -- data/news.json; then
+            echo "Nenhuma mudança."
+            exit 0
+          fi
+          git config user.name "radar-bratechs[bot]"
+          git config user.email "radar-bratechs@users.noreply.github.com"
+          git add data/news.json
+          git commit -m "Radar: edição $(TZ=America/Sao_Paulo date +'%d/%m %Hh')"
+          git push
+
+      - name: Republicar GitHub Pages
+        # commits feitos com o GITHUB_TOKEN não disparam o Pages sozinhos; pedimos o build explicitamente
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Aviso: não foi possível disparar o build do Pages"

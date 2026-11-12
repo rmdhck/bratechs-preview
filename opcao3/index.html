@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="../assets/css/radar-embed.css" />
 <script>document.documentElement.classList.add('js');</script>
 <script type="importmap">
   { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
@@ -27,6 +28,7 @@
     <a href="#servicos">Serviços</a>
     <a href="#metodo">Método</a>
   </nav>
+  <a href="../newsletter/" class="nav__radar"><span class="dot"></span>Radar</a>
   <a href="#contato" class="pill" data-magnetic><span>Fale conosco</span><i>↗</i></a>
 </header>
 
@@ -138,6 +140,17 @@
     </ul>
   </section>
 
+  <!-- ================= RADAR (notícia do dia) ================= -->
+  <section class="radarsec" id="radar" data-shape="sphere" data-side="center" data-dim="1">
+    <div class="wrap">
+      <header class="head">
+        <p class="eyebrow"><span class="dot"></span>Radar Bratechs · novas notícias às 06h · 12h · 18h</p>
+        <h2 class="h2">O que está <em>acontecendo agora.</em></h2>
+      </header>
+      <div data-radar-embed data-base="../"></div>
+    </div>
+  </section>
+
   <!-- ================= MÉTODO (cards empilhados) ================= -->
   <section class="method" id="metodo" data-shape="wave" data-side="center" data-dim="1">
     <div class="wrap">
@@ -183,6 +196,7 @@
 <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="../assets/js/radar-embed.js"></script>
 <script type="module" src="main.js"></script>
 </body>
 </html>

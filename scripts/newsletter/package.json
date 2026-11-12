@@ -1,0 +1,13 @@
+{
+  "name": "bratechs-radar",
+  "private": true,
+  "type": "module",
+  "description": "Varre feeds de cibersegurança, escolhe as 3 notícias mais relevantes e publica em data/news.json",
+  "scripts": {
+    "radar": "node radar.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0"
+  },
+  "engines": { "node": ">=20" }
+}

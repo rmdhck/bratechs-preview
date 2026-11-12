@@ -1,0 +1,150 @@
+{
+  "editions": [
+    {
+      "id": "2026-11-12-06h",
+      "date": "2026-11-12",
+      "slot": "06h",
+      "publishedAt": "2026-11-12T06:11:23.008Z",
+      "items": [
+        {
+          "id": "lLWZsYXdzLmh0bWw",
+          "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+          "originalTitle": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+          "source": {
+            "name": "The Hacker News",
+            "home": "https://thehackernews.com"
+          },
+          "publishedAt": "2026-11-11T06:04:02.000Z",
+          "alsoIn": [
+            {
+              "name": "BleepingComputer",
+              "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/"
+            },
+            {
+              "name": "SecurityWeek",
+              "link": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/"
+            },
+            {
+              "name": "Krebs on Security",
+              "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/"
+            }
+          ],
+          "score": 16.84
+        },
+        {
+          "id": "bnVjb3BpYS1jdmVz",
+          "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+          "originalTitle": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+          "summary": "Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+          "source": {
+            "name": "Dark Reading",
+            "home": "https://www.darkreading.com"
+          },
+          "publishedAt": "2026-11-10T22:26:51.000Z",
+          "alsoIn": [
+            {
+              "name": "CISO Advisor",
+              "link": "https://www.cisoadvisor.com.br/microsoft-corrige-falhas-incluindo-zero-day-explorada-no-outlook/"
+            },
+            {
+              "name": "Minuto da Segurança",
+              "link": "https://minutodaseguranca.blog.br/outlook-cve-2026-124194-exploracao-confirmada-ntlm/"
+            }
+          ],
+          "score": 13.81
+        },
+        {
+          "id": "MtNS1taWxsaW9uLw",
+          "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+          "originalTitle": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+          "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+          "why": "Ransomware segue como a principal causa de paralisação de operações; backups testados e EDR ativo reduzem o impacto.",
+          "category": "Ransomware",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+          "source": {
+            "name": "BleepingComputer",
+            "home": "https://www.bleepingcomputer.com"
+          },
+          "publishedAt": "2026-11-11T16:24:18.000Z",
+          "alsoIn": [],
+          "score": 10.12
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-11-12T06:11:23.008Z",
+  "sources": [
+    {
+      "name": "The Hacker News",
+      "lang": "en"
+    },
+    {
+      "name": "BleepingComputer",
+      "lang": "en"
+    },
+    {
+      "name": "Krebs on Security",
+      "lang": "en"
+    },
+    {
+      "name": "The Record",
+      "lang": "en"
+    },
+    {
+      "name": "SecurityWeek",
+      "lang": "en"
+    },
+    {
+      "name": "Dark Reading",
+      "lang": "en"
+    },
+    {
+      "name": "CISA",
+      "lang": "en"
+    },
+    {
+      "name": "WIRED Security",
+      "lang": "en"
+    },
+    {
+      "name": "Help Net Security",
+      "lang": "en"
+    },
+    {
+      "name": "ESET WeLiveSecurity",
+      "lang": "en"
+    },
+    {
+      "name": "CISO Advisor",
+      "lang": "pt"
+    },
+    {
+      "name": "The Hack",
+      "lang": "pt"
+    },
+    {
+      "name": "Canaltech",
+      "lang": "pt"
+    },
+    {
+      "name": "Minuto da Segurança",
+      "lang": "pt"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-/* BRATECHS — página inicial da prévia: fundo azul + 3 botões */
+/* BRATECHS — página inicial da prévia: logo, aviso e 3 botões */
 :root {
   --bt-bg: #2334B2;
 }
@@ -6,29 +6,48 @@
 html, body { margin: 0; height: 100%; }
 body {
   background: var(--bt-bg);
+  color: #FFFFFF;
   font-family: "Raleway", system-ui, -apple-system, "Segoe UI", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-.choices {
+.home {
   min-height: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  padding: 24px;
+  gap: 24px;
+  padding: 32px 24px;
+  text-align: center;
+}
+.home__logo {
+  width: min(320px, 70vw);
+  height: auto;
+}
+.home__note {
+  margin: 0;
+  max-width: 420px;
+  font-size: 15px;
+  line-height: 1.5;
+  opacity: .85;
+}
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 24px;
 }
 .choice {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 200px;
-  height: 60px;
-  padding: 0 32px;
+  height: 46px;
+  padding: 0 24px;
   border-radius: 5px;
   background: #FFFFFF;
   color: var(--bt-bg);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: .06em;
   text-transform: uppercase;
@@ -40,6 +59,5 @@ body {
   box-shadow: 0 14px 32px -10px rgba(0, 0, 0, .35);
 }
 @media (max-width: 560px) {
-  .choices { flex-direction: column; }
-  .choice { width: 100%; max-width: 320px; }
+  .choices { flex-direction: column; align-items: center; gap: 16px; }
 }

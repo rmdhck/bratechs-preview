@@ -221,3 +221,18 @@ main, .nav, .foot { position: relative; z-index: 1; }
   .reveal24__mask { display: none; }
   .reveal24__caption { opacity: 1; }
 }
+
+/* ---------- Radar (notícia do dia) ---------- */
+.nav__radar { display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 16px; border: 1px solid rgba(63, 249, 165, .35); border-radius: 999px; background: rgba(63, 249, 165, .06); font-size: 14px; font-weight: 500; transition: background .3s; }
+.nav__radar:hover { background: rgba(63, 249, 165, .14); }
+.radarsec { padding: 16vh 0 10vh; }
+.radarsec .re { --re-font: var(--sans); --re-mono: var(--mono); --re-radius: 22px; --re-line: var(--line); --re-card: linear-gradient(160deg, rgba(35, 52, 178, .22), rgba(3, 5, 15, .55)); }
+.radarsec .re__title { font-weight: 500; letter-spacing: -.04em; }
+.radarsec .re__more { background: #F1F3FF; }
+@media (max-width: 720px) { .nav__radar { margin-left: auto; height: 42px; } .nav .pill { margin-left: 0; } }
+@media (max-width: 720px) {
+  .nav { gap: 8px; }
+  .nav__logo img { height: 22px; }
+  .nav__radar { padding: 0 12px; font-size: 13px; }
+  .nav .pill { padding: 0 6px 0 14px; gap: 8px; white-space: nowrap; font-size: 13px; }
+}

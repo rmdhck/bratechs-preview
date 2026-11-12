@@ -482,3 +482,9 @@ p { margin: 0; }
   .console__line { stroke-dashoffset: 0; }
   .pulse path { stroke-dasharray: none; }
 }
+
+/* ---------- Radar (notícia do dia) ---------- */
+.nav__links .nav__radar { display: inline-flex; align-items: center; gap: 8px; color: #fff; border: 1px solid var(--line-2); }
+.nav__links .nav__radar .chip__dot { width: 6px; height: 6px; }
+#radar .re { --re-font: var(--font-body); --re-mono: var(--font-mono); --re-card: linear-gradient(180deg, rgba(20, 30, 100, .42), rgba(10, 17, 64, .3)); --re-radius: var(--radius); }
+#radar .re__title { font-family: var(--font-display); }

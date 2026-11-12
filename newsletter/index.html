@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Radar Bratechs – Notícias de cibersegurança</title>
+<meta name="description" content="As 3 notícias mais relevantes de cibersegurança, selecionadas às 6h, 12h e 18h, sempre com a fonte original." />
+<link rel="icon" href="../assets/img/favicon.png" sizes="32x32" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="top">
+  <a href="../" class="top__logo" aria-label="Bratechs"><img src="../assets/img/logo.png" alt="Bratechs" /></a>
+  <span class="top__tag">Radar</span>
+  <div class="top__status" aria-live="polite">
+    <i class="live"></i>
+    <span>Próxima edição em <b id="countdown">--:--:--</b></span>
+  </div>
+  <button class="top__share" id="shareBtn" type="button">Compartilhar</button>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__copy">
+      <p class="mono"><span class="dot"></span> Novas notícias todos os dias · 06h · 12h · 18h</p>
+      <h1>Radar <span class="grad">Bratechs</span></h1>
+      <p class="hero__lead">Todos os dias, às 6h, 12h e 18h, publicamos as <b>3 notícias de cibersegurança mais relevantes</b>
+        do Brasil e do mundo, para você saber o que está acontecendo. Sempre com a fonte original.</p>
+      <dl class="hero__stats">
+        <div><dt>Última edição</dt><dd id="lastScan">—</dd></div>
+        <div><dt>Veículos de referência</dt><dd id="srcCount">—</dd></div>
+        <div><dt>Edições no arquivo</dt><dd id="edCount">—</dd></div>
+      </dl>
+    </div>
+    <div class="radar" aria-hidden="true">
+      <canvas id="radar"></canvas>
+      <div class="radar__legend">
+        <span><i class="sev sev--critica"></i>crítica</span>
+        <span><i class="sev sev--alta"></i>alta</span>
+        <span><i class="sev sev--media"></i>média</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDIÇÃO ============ -->
+  <section class="edition" id="edicao">
+    <header class="edition__head">
+      <div>
+        <p class="mono" id="edDate">—</p>
+        <h2 id="edTitle">Carregando edição…</h2>
+      </div>
+      <nav class="slots" id="slots" aria-label="Edições do dia"></nav>
+    </header>
+    <div class="stories" id="stories">
+      <article class="story story--skeleton"></article>
+      <article class="story story--skeleton"></article>
+      <article class="story story--skeleton"></article>
+    </div>
+  </section>
+
+  <!-- ============ ARQUIVO ============ -->
+  <section class="archive" id="arquivo">
+    <header class="archive__head">
+      <div>
+        <p class="mono">// arquivo</p>
+        <h2>Edições anteriores</h2>
+      </div>
+      <div class="archive__tools">
+        <label class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input type="search" id="q" placeholder="Buscar: ransomware, Microsoft, vazamento…" autocomplete="off" />
+        </label>
+        <div class="chips" id="chips"></div>
+      </div>
+    </header>
+    <ol class="timeline" id="timeline"></ol>
+    <p class="empty" id="empty" hidden>Nenhuma notícia encontrada para esse filtro.</p>
+  </section>
+
+  <!-- ============ FONTES ============ -->
+  <section class="sources">
+    <p class="mono">// veículos de referência</p>
+    <ul id="sourceList"></ul>
+    <p class="disclaimer">
+      Notícias selecionadas e resumidas pela Bratechs a partir dos trechos públicos divulgados por cada veículo.
+      Os resumos podem conter imprecisões; leia sempre a matéria completa na fonte original. Os direitos das matérias pertencem aos respectivos veículos.
+    </p>
+  </section>
+</main>
+
+<footer class="foot">
+  <img src="../assets/img/logo.png" alt="Bratechs" />
+  <span>© 2026 Bratechs · Cibersegurança para quem não pode parar</span>
+  <a href="https://wa.me/5511983372959" target="_blank" rel="noopener">Falar com um especialista ↗</a>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
