@@ -55,4 +55,5 @@ jobs:
         # commits feitos com o GITHUB_TOKEN não disparam o Pages sozinhos; pedimos o build explicitamente
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Aviso: não foi possível disparar o build do Pages"
+        run: |
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Aviso - não foi possível disparar o build do Pages"
