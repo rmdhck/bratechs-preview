@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Bratechs – SOC Command Center</title>
+<link rel="icon" href="../assets/img/favicon.png" sizes="32x32" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<script>
+  /* boot: só mostra a tela de inicialização se o JS rodar; some sozinha em 4s mesmo com erro */
+  document.documentElement.classList.add('js', 'booting');
+  setTimeout(function () { document.documentElement.classList.remove('booting'); }, 4000);
+</script>
+<script type="importmap">
+  { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+</script>
+</head>
+<body>
+
+<!-- ============ BOOT ============ -->
+<div class="boot" id="boot" aria-hidden="true">
+  <div class="boot__inner">
+    <img src="../assets/img/shield.png" alt="" class="boot__logo" />
+    <pre class="boot__log" id="bootLog"></pre>
+    <div class="boot__bar"><span id="bootBar"></span></div>
+  </div>
+</div>
+
+<!-- ============ CURSOR HUD ============ -->
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__ring"></span><span class="cursor__dot"></span><span class="cursor__xy" id="cursorXY"></span></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <a href="#top" class="nav__logo"><img src="../assets/img/logo.png" alt="Bratechs" /></a>
+  <nav class="nav__links">
+    <a href="#servicos" data-scramble>Serviços</a>
+    <a href="#camadas" data-scramble>Camadas</a>
+    <a href="#metodo" data-scramble>Método</a>
+    <a href="#contato" data-scramble>Contato</a>
+  </nav>
+  <div class="nav__status"><i></i><span id="clock">--:--:-- UTC-3</span></div>
+  <a href="#contato" class="btn btn--neon nav__cta" data-magnetic><span>Diagnóstico</span></a>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO / GLOBO ============ -->
+<section class="hero">
+  <canvas id="globe" class="hero__globe" aria-label="Globo 3D com ataques sendo bloqueados em São Paulo"></canvas>
+  <div class="hero__vignette" aria-hidden="true"></div>
+
+  <div class="hero__hud hero__hud--tl" aria-hidden="true">
+    <span>SYS://BRATECHS-SOC</span><span>NODE: SÃO PAULO · BR</span><span>LAT -23.5613 · LON -46.6565</span>
+  </div>
+  <div class="hero__hud hero__hud--br" aria-hidden="true">
+    <span>THREAT LEVEL <b class="ok">CONTROLADO</b></span>
+    <span>EVENTOS INTERCEPTADOS <b id="hudCount">0</b></span>
+    <span class="hero__hud-note">simulação visual</span>
+  </div>
+
+  <div class="hero__content">
+    <p class="kicker" data-scramble-in>// cibersegurança gerenciada · 24/7</p>
+    <h1 class="hero__title">
+      <span class="line"><span data-split>Cibersegurança</span></span>
+      <span class="line"><span data-split>para quem</span></span>
+      <span class="line"><span data-split class="neon">não pode parar.</span></span>
+    </h1>
+    <p class="hero__lead">Cada ponto de luz é um ataque. Cada um deles termina aqui.
+      Prevenção, detecção e resposta para instituições públicas e empresas de todos os portes.</p>
+    <div class="hero__ctas">
+      <a href="#contato" class="btn btn--neon" data-magnetic><span>Solicitar diagnóstico</span></a>
+      <a href="#servicos" class="btn btn--line" data-magnetic><span>Explorar a operação ↓</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TICKER ============ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track" id="ticker"></div>
+</div>
+
+<!-- ============ SERVIÇOS — HORIZONTAL PINADO ============ -->
+<section class="hs" id="servicos">
+  <div class="hs__pin">
+    <header class="hs__head">
+      <p class="kicker">// 05 frentes de proteção</p>
+      <h2 data-scramble-in>Portfólio de serviços</h2>
+      <div class="hs__progress"><span id="hsBar"></span></div>
+    </header>
+    <div class="hs__track" id="hsTrack">
+      <article class="panel">
+        <span class="panel__n">01</span>
+        <div class="panel__glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M2 20h20M9 10l2 2 4-4"/></svg></div>
+        <h3>Endpoint Security</h3>
+        <p>Antivírus com inteligência ativa. Intercept X detecta, bloqueia e neutraliza ataques automaticamente.</p>
+        <code>intercept_x --mode=auto --rollback=on</code>
+      </article>
+      <article class="panel">
+        <span class="panel__n">02</span>
+        <div class="panel__glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9.3h18M3 14.7h18M9 4v5.3M15 9.3v5.4M9 14.7V20"/></svg></div>
+        <h3>Firewall Gerenciado</h3>
+        <p>Inspeção de tráfego em tempo real e bloqueio de ameaças antes que entrem na rede.</p>
+        <code>fw.inspect(traffic).deny(threats)</code>
+      </article>
+      <article class="panel">
+        <span class="panel__n">03</span>
+        <div class="panel__glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
+        <h3>Email Security</h3>
+        <p>Proteção contra phishing, spam e golpes digitais, com autoaprendizado e simulações PhishThreat.</p>
+        <code>mail.filter({ phishing: "block" })</code>
+      </article>
+      <article class="panel">
+        <span class="panel__n">04</span>
+        <div class="panel__glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 18a4.5 4.5 0 0 1-.6-8.96A6 6 0 0 1 18 9.5a4 4 0 0 1-.5 8.5Z"/><path d="m10 13.5 1.5 1.5 3-3"/></svg></div>
+        <h3>Cloud Security</h3>
+        <p>Ambientes Microsoft, Google, AWS e Azure monitorados contra falhas de configuração e vulnerabilidades.</p>
+        <code>cloud_optix.scan(["aws","azure","gcp"])</code>
+      </article>
+      <article class="panel panel--hot">
+        <span class="panel__n">05</span>
+        <div class="panel__glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 12h4l2.5-6 5 12 2.5-6h4"/></svg></div>
+        <h3>Monitoramento 24/7</h3>
+        <p>Especialistas com MTR e MDR monitorando, analisando e respondendo a incidentes, dia e noite.</p>
+        <code>while(true) { soc.watch(); }</code>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CAMADAS 3D ============ -->
+<section class="layers" id="camadas">
+  <div class="layers__pin">
+    <div class="layers__copy">
+      <p class="kicker">// defesa em profundidade</p>
+      <h2 data-scramble-in>Cinco camadas.<br />Zero pontos cegos.</h2>
+      <p>Cada camada compartilha inteligência com as outras: uma ameaça detectada em um ponto é bloqueada em todos.</p>
+    </div>
+    <div class="stack" id="stack" aria-hidden="true">
+      <div class="layer" style="--i:0"><span>Identidade · ZTNA</span></div>
+      <div class="layer" style="--i:1"><span>Nuvem · Cloud Optix</span></div>
+      <div class="layer" style="--i:2"><span>E-mail · Email Advanced</span></div>
+      <div class="layer" style="--i:3"><span>Rede · Firewall</span></div>
+      <div class="layer layer--core" style="--i:4"><span>Endpoint · Intercept X</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MÉTODO ============ -->
+<section class="method" id="metodo">
+  <header class="method__head">
+    <p class="kicker">// protocolo de implantação</p>
+    <h2 data-scramble-in>Como funciona</h2>
+  </header>
+  <div class="method__body">
+    <svg class="method__path" viewBox="0 0 20 1000" preserveAspectRatio="none" aria-hidden="true">
+      <path id="methodPath" d="M10 0 V1000" pathLength="1000" />
+    </svg>
+    <ol class="method__list">
+      <li><b>01</b><div><h3>Diagnóstico</h3><p>Identificamos a realidade da sua organização.</p></div></li>
+      <li><b>02</b><div><h3>Proposta</h3><p>Enviamos uma proposta clara, com ou sem visita técnica.</p></div></li>
+      <li><b>03</b><div><h3>Implantação</h3><p>Implantamos os serviços de forma rápida e segura.</p></div></li>
+      <li><b>04</b><div><h3>Monitoramento</h3><p>Monitoramos, protegemos e reportamos com relatórios periódicos.</p></div></li>
+      <li><b>05</b><div><h3>Evolução</h3><p>Equipe à disposição para suporte e evolução contínua.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ NÚMEROS ============ -->
+<section class="nums">
+  <div class="num"><b data-to="24" data-suffix="/7">00</b><span>monitoramento contínuo</span></div>
+  <div class="num"><b data-to="8">00</b><span>tecnologias Sophos integradas</span></div>
+  <div class="num"><b data-to="5">00</b><span>frentes de proteção</span></div>
+  <div class="num"><b data-to="2">00</b><span>parcerias globais · Sophos &amp; Fortinet</span></div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section class="contact" id="contato">
+  <p class="kicker">// estabelecer conexão segura</p>
+  <h2 class="contact__title">
+    <span class="line"><span data-split>Fale com um</span></span>
+    <span class="line"><span data-split class="neon">especialista.</span></span>
+  </h2>
+  <div class="contact__grid">
+    <a href="https://wa.me/5511983372959" target="_blank" rel="noopener" class="contact__card" data-magnetic>
+      <small>WhatsApp</small><strong>(11) 98337-2959</strong><i>→</i>
+    </a>
+    <a href="mailto:comercial@bratechs.com.br" class="contact__card" data-magnetic>
+      <small>E-mail</small><strong>comercial@bratechs.com.br</strong><i>→</i>
+    </a>
+    <div class="contact__card contact__card--static">
+      <small>Base</small><strong>Av. Paulista, 1636 · São Paulo/SP</strong>
+    </div>
+  </div>
+  <div class="contact__partners">
+    <img src="../assets/img/sophos.png" alt="Sophos Silver Partner" />
+    <img src="../assets/img/fortinet.png" alt="Fortinet Advocate Partner" />
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <img src="../assets/img/logo.png" alt="Bratechs" />
+  <span>© 2026 Bratechs · Cibersegurança para quem não pode parar</span>
+  <span class="foot__sys">SYS OK · <span id="footClock"></span></span>
+</footer>
+
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="ui.js"></script>
+<script type="module" src="globe.js"></script>
+</body>
+</html>

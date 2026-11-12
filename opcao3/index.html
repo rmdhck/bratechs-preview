@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Bratechs – Cibersegurança</title>
+<link rel="icon" href="../assets/img/favicon.png" sizes="32x32" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<script>document.documentElement.classList.add('js');</script>
+<script type="importmap">
+  { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+</script>
+</head>
+<body>
+
+<!-- WebGL: aurora (shader) + partículas que mudam de forma -->
+<canvas id="gl" class="gl" aria-hidden="true"></canvas>
+
+<header class="nav">
+  <a href="#topo" class="nav__logo"><img src="../assets/img/logo.png" alt="Bratechs" /></a>
+  <nav class="nav__links">
+    <a href="#manifesto">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#metodo">Método</a>
+  </nav>
+  <a href="#contato" class="pill" data-magnetic><span>Fale conosco</span><i>↗</i></a>
+</header>
+
+<main id="topo">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" data-shape="shield" data-side="right">
+    <div class="wrap hero__inner">
+      <p class="eyebrow"><span class="dot"></span>Cibersegurança gerenciada · São Paulo</p>
+      <h1 class="hero__title" data-words>
+        Cibersegurança para quem <em>não pode parar.</em>
+      </h1>
+      <div class="hero__foot">
+        <p class="hero__lead">Proteção inteligente para instituições públicas, empresas, entidades e organizações digitais
+          de todos os portes. Prevenção, detecção e resposta, 24 horas por dia.</p>
+        <div class="hero__ctas">
+          <a href="#contato" class="pill pill--solid" data-magnetic><span>Solicitar diagnóstico</span><i>↗</i></a>
+          <a href="#servicos" class="link-underline">Ver serviços</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true"><span>role</span><i></i></div>
+  </section>
+
+  <!-- ================= MANIFESTO ================= -->
+  <section class="manifesto" id="manifesto" data-shape="sphere" data-side="center" data-dim="1">
+    <div class="wrap">
+      <p class="eyebrow"><span class="dot"></span>Quem somos</p>
+      <p class="manifesto__text" id="manifestoText">
+        A Bratechs protege redes, dados e sistemas de organizações que lidam com informações sensíveis e precisam de
+        continuidade e confiança. Tecnologia de última geração, em parceria com a Sophos e a Fortinet, com documentação
+        completa, clareza e acompanhamento humano.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= SERVIÇOS (cards 3D) ================= -->
+  <section class="services" id="servicos" data-shape="lock" data-side="center" data-dim="1">
+    <div class="wrap">
+      <header class="head">
+        <p class="eyebrow"><span class="dot"></span>Portfólio</p>
+        <h2 class="h2">Cinco frentes. <em>Uma só defesa.</em></h2>
+      </header>
+      <div class="cards">
+        <article class="tcard" data-tilt>
+          <span class="tcard__n">01</span>
+          <h3>Endpoint Security</h3>
+          <p>Antivírus com inteligência ativa. O Intercept X detecta, bloqueia e neutraliza ataques automaticamente.</p>
+          <span class="tcard__glare"></span>
+        </article>
+        <article class="tcard" data-tilt>
+          <span class="tcard__n">02</span>
+          <h3>Firewall Gerenciado</h3>
+          <p>Controle do tráfego de rede e acesso, com inspeção em tempo real.</p>
+          <span class="tcard__glare"></span>
+        </article>
+        <article class="tcard" data-tilt>
+          <span class="tcard__n">03</span>
+          <h3>Email Security</h3>
+          <p>Proteção contra phishing, spam e golpes digitais, com autoaprendizado.</p>
+          <span class="tcard__glare"></span>
+        </article>
+        <article class="tcard" data-tilt>
+          <span class="tcard__n">04</span>
+          <h3>Cloud Security</h3>
+          <p>Proteção de ambientes em nuvem: Microsoft, Google, AWS e Azure.</p>
+          <span class="tcard__glare"></span>
+        </article>
+        <article class="tcard tcard--wide" data-tilt>
+          <span class="tcard__n">05</span>
+          <h3>Monitoramento 24/7</h3>
+          <p>Equipe especializada cuidando da sua rede em tempo real. MTR e MDR: especialistas monitoram, analisam e
+            respondem a incidentes em todo o ambiente.</p>
+          <span class="tcard__glare"></span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= VÍDEO DENTRO DO TEXTO ================= -->
+  <section class="reveal24" id="soc" data-shape="none">
+    <div class="reveal24__sticky">
+      <video class="reveal24__video" autoplay muted loop playsinline preload="metadata"
+             poster="../assets/video/hero-bg-poster.jpg" aria-hidden="true">
+        <source src="../assets/video/hero-bg.mp4" type="video/mp4" />
+      </video>
+      <div class="reveal24__mask" id="mask24"><span>24/7</span></div>
+      <div class="reveal24__caption" id="cap24">
+        <p class="eyebrow"><span class="dot"></span>SOC sempre ativo</p>
+        <h2 class="h2">Enquanto sua equipe descansa, <em>a nossa observa.</em></h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TECNOLOGIAS (marquee por velocidade) ================= -->
+  <section class="tech" data-shape="text" data-side="center" data-dim="1">
+    <p class="eyebrow wrap"><span class="dot"></span>Tecnologias integradas</p>
+    <div class="vmarquee" aria-hidden="true">
+      <div class="vmarquee__track" id="vtrack">
+        <span>Intercept X</span><span class="o">Firewall</span><span>MTR</span><span class="o">MDR</span>
+        <span>Cloud Optix</span><span class="o">Email Advanced</span><span>ZTNA</span><span class="o">PhishThreat</span>
+      </div>
+    </div>
+    <ul class="tech__list wrap">
+      <li><b>ZTNA</b>Só usuários e dispositivos autorizados acessam os recursos da empresa.</li>
+      <li><b>PhishThreat</b>Simula ataques de phishing e treina os funcionários automaticamente.</li>
+      <li><b>Cloud Optix</b>Monitora configurações erradas e vulnerabilidades na nuvem.</li>
+      <li><b>MDR</b>Analisa e responde a incidentes em todo o ambiente, com relatórios regulares.</li>
+    </ul>
+  </section>
+
+  <!-- ================= MÉTODO (cards empilhados) ================= -->
+  <section class="method" id="metodo" data-shape="wave" data-side="center" data-dim="1">
+    <div class="wrap">
+      <header class="head">
+        <p class="eyebrow"><span class="dot"></span>Como funciona</p>
+        <h2 class="h2">Do diagnóstico à <em>evolução contínua.</em></h2>
+      </header>
+      <ol class="stackc">
+        <li style="--i:0"><span>01</span><div><h3>Diagnóstico</h3><p>Identificamos a realidade da sua organização.</p></div></li>
+        <li style="--i:1"><span>02</span><div><h3>Proposta</h3><p>Enviamos uma proposta clara, com ou sem visita técnica.</p></div></li>
+        <li style="--i:2"><span>03</span><div><h3>Implantação</h3><p>Implantamos os serviços de forma rápida e segura.</p></div></li>
+        <li style="--i:3"><span>04</span><div><h3>Monitoramento</h3><p>Monitoramos, protegemos e reportamos com relatórios periódicos.</p></div></li>
+        <li style="--i:4"><span>05</span><div><h3>Evolução</h3><p>Nossa equipe permanece à disposição para suporte e evolução contínua.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= CONTATO ================= -->
+  <section class="contact" id="contato" data-shape="shield" data-side="center" data-dim="1">
+    <div class="wrap contact__inner">
+      <p class="eyebrow"><span class="dot"></span>Diagnóstico gratuito</p>
+      <h2 class="contact__title">Vamos proteger <em>a sua operação?</em></h2>
+      <div class="contact__ctas">
+        <a href="https://wa.me/5511983372959" target="_blank" rel="noopener" class="pill pill--solid pill--xl" data-magnetic><span>Conversar no WhatsApp</span><i>↗</i></a>
+        <a href="mailto:comercial@bratechs.com.br" class="pill pill--xl" data-magnetic><span>comercial@bratechs.com.br</span><i>↗</i></a>
+      </div>
+      <dl class="contact__info">
+        <div><dt>Telefone</dt><dd>(11) 98337-2959</dd></div>
+        <div><dt>Endereço</dt><dd>Av. Paulista, 1636 · São Paulo/SP</dd></div>
+        <div><dt>Parceiros</dt><dd>Sophos Silver · Fortinet Advocate</dd></div>
+      </dl>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot wrap">
+  <img src="../assets/img/logo.png" alt="Bratechs" />
+  <span>© 2026 Bratechs</span>
+  <a href="#topo">Voltar ao topo ↑</a>
+</footer>
+
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script type="module" src="main.js"></script>
+</body>
+</html>

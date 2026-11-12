@@ -1,0 +1,46 @@
+/* BRATECHS — página inicial da prévia: fundo azul + 3 botões */
+:root {
+  --bt-bg: #2334B2;
+  --bt-grad: linear-gradient(120deg, #16A6FC 0%, #3FF9A5 100%);
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  background: var(--bt-bg);
+  font-family: "Raleway", system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.choices {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 24px;
+}
+.choice {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 60px;
+  padding: 0 32px;
+  border-radius: 5px;
+  background: var(--bt-grad);
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.choice:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px -10px rgba(63, 249, 165, .6);
+}
+@media (max-width: 560px) {
+  .choices { flex-direction: column; }
+  .choice { width: 100%; max-width: 320px; }
+}

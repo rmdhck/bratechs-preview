@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Bratechs – Cibersegurança para quem não pode parar</title>
+<link rel="icon" href="../assets/img/favicon.png" sizes="32x32" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#inicio" class="nav__logo" aria-label="Bratechs — início">
+      <img src="../assets/img/logo.png" alt="Bratechs" width="150" height="32" />
+    </a>
+    <nav class="nav__links" id="navLinks" aria-label="Principal">
+      <a href="#plataforma">Plataforma</a>
+      <a href="#ecossistema">Ecossistema</a>
+      <a href="#metodo">Como funciona</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#contato" class="nav__cta-mobile">Contato</a>
+    </nav>
+    <a href="#contato" class="btn btn--primary btn--sm nav__cta">
+      Falar com especialista
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="inicio">
+  <video class="hero__video" autoplay muted loop playsinline preload="auto"
+         poster="../assets/video/hero-bg-poster.jpg" aria-hidden="true">
+    <source src="../assets/video/hero-bg.mp4" type="video/mp4" />
+  </video>
+  <div class="hero__veil" aria-hidden="true"></div>
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="hero__glow" aria-hidden="true"></div>
+
+  <div class="container hero__content">
+    <div class="hero__copy">
+      <span class="chip reveal"><i class="chip__dot"></i> SOC ativo 24/7 · Sophos Silver Partner</span>
+      <h1 class="hero__title reveal">
+        Cibersegurança para quem <span class="grad">não pode parar.</span>
+      </h1>
+      <p class="hero__lead reveal">
+        Proteção inteligente para instituições públicas, empresas, entidades e organizações
+        digitais de todos os portes — prevenção, detecção e resposta em uma operação contínua.
+      </p>
+      <div class="hero__ctas reveal">
+        <a href="#contato" class="btn btn--primary">
+          Solicitar diagnóstico
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a href="#plataforma" class="btn btn--ghost">Conhecer a plataforma</a>
+      </div>
+    </div>
+
+    <!-- console "ao vivo" (demonstração visual) -->
+    <aside class="console reveal" aria-label="Demonstração do monitoramento">
+      <div class="console__bar">
+        <span class="console__dots"><i></i><i></i><i></i></span>
+        <span class="console__title">bratechs-soc / monitor</span>
+        <span class="console__live"><i></i> LIVE</span>
+      </div>
+      <div class="console__stats">
+        <div><small>Endpoints</small><strong data-count="1248">0</strong></div>
+        <div><small>Bloqueios</small><strong class="grad" data-count="312">0</strong></div>
+        <div><small>Status</small><strong class="ok">Protegido</strong></div>
+      </div>
+      <div class="console__chart" aria-hidden="true">
+        <svg viewBox="0 0 300 70" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="cg" x1="0" x2="1">
+              <stop offset="0" stop-color="#16A6FC" /><stop offset="1" stop-color="#3FF9A5" />
+            </linearGradient>
+            <linearGradient id="cf" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0" stop-color="#3FF9A5" stop-opacity=".25" /><stop offset="1" stop-color="#3FF9A5" stop-opacity="0" />
+            </linearGradient>
+          </defs>
+          <path class="console__area" d="M0 50 L20 46 L40 52 L60 40 L80 44 L100 30 L120 38 L140 22 L160 34 L180 26 L200 36 L220 18 L240 28 L260 14 L280 24 L300 10 L300 70 L0 70Z" fill="url(#cf)" />
+          <path class="console__line" d="M0 50 L20 46 L40 52 L60 40 L80 44 L100 30 L120 38 L140 22 L160 34 L180 26 L200 36 L220 18 L240 28 L260 14 L280 24 L300 10" fill="none" stroke="url(#cg)" stroke-width="2" />
+        </svg>
+      </div>
+      <ul class="console__feed" id="feed"></ul>
+      <span class="console__note">demonstração visual</span>
+    </aside>
+  </div>
+
+  <a href="#parceiros" class="hero__scroll" aria-label="Rolar para baixo"><span></span></a>
+</section>
+
+<!-- ===================== PARCEIROS / MARQUEE ===================== -->
+<section class="partners" id="parceiros">
+  <div class="container partners__inner">
+    <p class="partners__label">Parceiros oficiais</p>
+    <div class="partners__logos">
+      <img src="../assets/img/sophos.png" alt="Sophos Silver Partner" />
+      <img src="../assets/img/fortinet.png" alt="Fortinet Engage Advocate Partner" />
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Intercept X</span><i>✦</i><span>Firewall</span><i>✦</i><span>MTR</span><i>✦</i>
+      <span>MDR</span><i>✦</i><span>Cloud Optix</span><i>✦</i><span>Email Advanced</span><i>✦</i>
+      <span>ZTNA</span><i>✦</i><span>PhishThreat</span><i>✦</i><span>XDR</span><i>✦</i>
+      <span>Intercept X</span><i>✦</i><span>Firewall</span><i>✦</i><span>MTR</span><i>✦</i>
+      <span>MDR</span><i>✦</i><span>Cloud Optix</span><i>✦</i><span>Email Advanced</span><i>✦</i>
+      <span>ZTNA</span><i>✦</i><span>PhishThreat</span><i>✦</i><span>XDR</span><i>✦</i>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PLATAFORMA (BENTO) ===================== -->
+<section class="section" id="plataforma">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="chip"><i class="chip__dot"></i> Plataforma</span>
+      <h2>Cinco frentes de proteção.<br /><span class="muted">Uma única operação.</span></h2>
+      <p>Soluções profissionais para proteger sua rede, seus dados e sua operação — com instalação
+        rápida, suporte contínuo e relatórios mensais.</p>
+    </header>
+
+    <div class="bento">
+      <article class="card card--xl reveal" data-spot>
+        <div class="card__visual card__visual--scan" aria-hidden="true">
+          <img src="../assets/img/shield.png" alt="" />
+          <span class="scan"></span>
+          <span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span>
+        </div>
+        <div class="card__body">
+          <span class="card__tag">01 · Endpoint</span>
+          <h3>Endpoint Security</h3>
+          <p>Antivírus com inteligência ativa. O Intercept X detecta, bloqueia e neutraliza ataques
+            automaticamente, sem intervenção manual em cada ameaça.</p>
+        </div>
+      </article>
+
+      <article class="card reveal" data-spot>
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9.3h18M3 14.7h18M9 4v5.3M15 9.3v5.4M9 14.7V20"/></svg>
+        </div>
+        <span class="card__tag">02 · Rede</span>
+        <h3>Firewall Gerenciado</h3>
+        <p>Inspeção de tráfego em tempo real e bloqueio de ameaças antes que entrem.</p>
+      </article>
+
+      <article class="card reveal" data-spot>
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </div>
+        <span class="card__tag">03 · E-mail</span>
+        <h3>Email Security</h3>
+        <p>Proteção contra phishing, spam e golpes digitais — com autoaprendizado.</p>
+      </article>
+
+      <article class="card reveal" data-spot>
+        <div class="card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M7 18a4.5 4.5 0 0 1-.6-8.96A6 6 0 0 1 18 9.5a4 4 0 0 1-.5 8.5Z"/><path d="m10 13.5 1.5 1.5 3-3"/></svg>
+        </div>
+        <span class="card__tag">04 · Nuvem</span>
+        <h3>Cloud Security</h3>
+        <p>Proteção de ambientes em nuvem — Microsoft, Google, AWS e Azure.</p>
+      </article>
+
+      <article class="card card--wide reveal" data-spot>
+        <div class="card__body">
+          <span class="card__tag">05 · SOC</span>
+          <h3>Monitoramento 24/7</h3>
+          <p>Equipe especializada cuidando da sua rede em tempo real, com MTR e MDR: especialistas
+            monitoram, analisam e respondem a incidentes em todo o ambiente.</p>
+        </div>
+        <div class="pulse" aria-hidden="true">
+          <svg viewBox="0 0 400 80" preserveAspectRatio="none">
+            <path d="M0 40 H120 L135 40 L145 12 L158 68 L170 24 L180 40 H260 L272 40 L280 28 L288 52 L296 40 H400" />
+          </svg>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ECOSSISTEMA (CANVAS) ===================== -->
+<section class="section section--eco" id="ecossistema">
+  <div class="container eco">
+    <header class="section__head section__head--left reveal">
+      <span class="chip"><i class="chip__dot"></i> Ecossistema adaptativo</span>
+      <h2>Cada camada conversa<br /><span class="grad">com a outra.</span></h2>
+      <p>Endpoint, rede, e-mail, nuvem e identidade compartilham inteligência em tempo real.
+        Uma ameaça detectada em um ponto é bloqueada em todos.</p>
+      <ul class="eco__list">
+        <li><b>XDR</b> Plataforma de resposta a ameaças</li>
+        <li><b>ZTNA</b> Acesso Zero Trust a recursos da empresa</li>
+        <li><b>PhishThreat</b> Simulação e treinamento contra phishing</li>
+        <li><b>Cloud Optix</b> Configurações e vulnerabilidades em nuvem</li>
+      </ul>
+    </header>
+    <div class="eco__stage reveal">
+      <canvas id="ecoCanvas" aria-label="Diagrama animado do ecossistema de segurança"></canvas>
+      <img class="eco__core" src="../assets/img/shield.png" alt="" aria-hidden="true" />
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MÉTODO ===================== -->
+<section class="section" id="metodo">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="chip"><i class="chip__dot"></i> Como funciona</span>
+      <h2>Do diagnóstico à<br /><span class="muted">evolução contínua.</span></h2>
+    </header>
+
+    <ol class="steps" id="steps">
+      <li class="step reveal"><span class="step__n">01</span><h3>Diagnóstico</h3><p>Identificamos a realidade da sua organização.</p></li>
+      <li class="step reveal"><span class="step__n">02</span><h3>Proposta</h3><p>Enviamos uma proposta clara, com ou sem visita técnica.</p></li>
+      <li class="step reveal"><span class="step__n">03</span><h3>Implantação</h3><p>Implantamos os serviços de forma rápida e segura.</p></li>
+      <li class="step reveal"><span class="step__n">04</span><h3>Monitoramento</h3><p>Monitoramos, protegemos e reportamos com relatórios periódicos.</p></li>
+      <li class="step reveal"><span class="step__n">05</span><h3>Evolução</h3><p>Equipe à disposição para suporte e evolução contínua.</p></li>
+      <span class="steps__line" aria-hidden="true"><span class="steps__fill" id="stepsFill"></span></span>
+    </ol>
+  </div>
+</section>
+
+<!-- ===================== DIFERENCIAIS ===================== -->
+<section class="section" id="diferenciais">
+  <div class="container">
+    <div class="stats reveal">
+      <div class="stat"><strong data-count="24" data-suffix="/7">0</strong><span>Monitoramento contínuo</span></div>
+      <div class="stat"><strong data-count="8">0</strong><span>Tecnologias Sophos integradas</span></div>
+      <div class="stat"><strong data-count="5">0</strong><span>Frentes de proteção</span></div>
+      <div class="stat"><strong data-count="2">0</strong><span>Parcerias globais</span></div>
+    </div>
+
+    <header class="section__head reveal">
+      <span class="chip"><i class="chip__dot"></i> Diferenciais</span>
+      <h2>Experiência local<br /><span class="grad">com alcance global.</span></h2>
+    </header>
+
+    <div class="diffs">
+      <article class="diff reveal" data-spot>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h7"/><circle cx="18" cy="16" r="3"/></svg>
+        <h3>Integrações nativas</h3>
+        <p>Tecnologias de última geração que se conectam ao seu ambiente sem atrito.</p>
+      </article>
+      <article class="diff reveal" data-spot>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V6M10 18v-8M16 18v-5M22 18H2"/></svg>
+        <h3>Planos flexíveis</h3>
+        <p>Do pequeno escritório à instituição pública: proteção no tamanho da sua operação.</p>
+      </article>
+      <article class="diff reveal" data-spot>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+        <h3>Suporte dedicado</h3>
+        <p>Acompanhamento humano, documentação completa e relatórios mensais.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA / CONTATO ===================== -->
+<section class="section" id="contato">
+  <div class="container">
+    <div class="cta reveal">
+      <div class="cta__glow" aria-hidden="true"></div>
+      <div class="cta__copy">
+        <span class="chip"><i class="chip__dot"></i> Diagnóstico gratuito</span>
+        <h2>Fale com um especialista<br />em cibersegurança.</h2>
+        <p>Deixe a gestão diária da segurança por nossa conta e concentre-se no core business.</p>
+        <div class="hero__ctas">
+          <a href="https://wa.me/5511983372959" class="btn btn--primary" target="_blank" rel="noopener">
+            Conversar no WhatsApp
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+          <a href="mailto:comercial@bratechs.com.br" class="btn btn--ghost">comercial@bratechs.com.br</a>
+        </div>
+      </div>
+      <ul class="cta__info">
+        <li><small>Telefone</small><a href="tel:+5511983372959">(11) 98337-2959</a></li>
+        <li><small>E-mail</small><a href="mailto:comercial@bratechs.com.br">comercial@bratechs.com.br</a></li>
+        <li><small>Endereço</small><span>Av. Paulista, 1636 — 01310-200<br />São Paulo / SP</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <img src="../assets/img/logo.png" alt="Bratechs" width="130" height="28" />
+    <nav aria-label="Rodapé">
+      <a href="#plataforma">Plataforma</a>
+      <a href="#ecossistema">Ecossistema</a>
+      <a href="#metodo">Como funciona</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <small>© 2026 Bratechs. Todos os direitos reservados.</small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
