@@ -1,6 +1,81 @@
 {
   "editions": [
     {
+      "id": "2026-11-12-12h",
+      "date": "2026-11-12",
+      "slot": "12h",
+      "publishedAt": "2026-11-12T17:16:01.304Z",
+      "items": [
+        {
+          "id": "vcGljLWdvb2dsZS8",
+          "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+          "originalTitle": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+          "summary": "The mod_http2 race condition, CVE-2026-119618, could let unauthenticated attackers execute code on servers with HTTP/2 enabled. The post Apache Patches Critical HTTP Server RCE Found by Anthropic, Google appeared first on SecurityWeek .",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+          "source": {
+            "name": "SecurityWeek",
+            "home": "https://www.securityweek.com"
+          },
+          "publishedAt": "2026-11-12T15:38:31.000Z",
+          "alsoIn": [
+            {
+              "name": "The Hacker News",
+              "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
+            }
+          ],
+          "score": 13.77
+        },
+        {
+          "id": "tc2VjdXJlLmh0bWw",
+          "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+          "originalTitle": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+          "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+          "source": {
+            "name": "The Hacker News",
+            "home": "https://thehackernews.com"
+          },
+          "publishedAt": "2026-11-12T15:38:49.000Z",
+          "alsoIn": [],
+          "score": 12.37
+        },
+        {
+          "id": "yZS10YWtlZG93bi8",
+          "title": "Operation Endgame malware takedown turns up over 6 million stolen logins",
+          "originalTitle": "Operation Endgame malware takedown turns up over 6 million stolen logins",
+          "summary": "Police in nine countries, working with Europol, took down servers behind the Gootloader, CastleRAT and StealC malware operations this week and recovered more than 6 million credentials stolen from infected computers. Europol announced the action as the latest round of Operation Endgame, the…",
+          "why": "Ransomware segue como a principal causa de paralisação de operações; backups testados e EDR ativo reduzem o impacto.",
+          "category": "Ransomware",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.helpnetsecurity.com/2026/11/12/europol-operation-endgame-malware-takedown/",
+          "source": {
+            "name": "Help Net Security",
+            "home": "https://www.helpnetsecurity.com"
+          },
+          "publishedAt": "2026-11-12T13:34:14.000Z",
+          "alsoIn": [
+            {
+              "name": "BleepingComputer",
+              "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/"
+            }
+          ],
+          "score": 10.3
+        }
+      ]
+    },
+    {
       "id": "2026-11-12-06h",
       "date": "2026-11-12",
       "slot": "06h",
@@ -88,7 +163,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-12T06:11:23.008Z",
+  "updatedAt": "2026-11-12T17:16:01.304Z",
   "sources": [
     {
       "name": "The Hacker News",
