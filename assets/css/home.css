@@ -1,7 +1,6 @@
 /* BRATECHS — página inicial da prévia: fundo azul + 3 botões */
 :root {
   --bt-bg: #2334B2;
-  --bt-grad: linear-gradient(120deg, #16A6FC 0%, #3FF9A5 100%);
 }
 *, *::before, *::after { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }
@@ -27,8 +26,8 @@ body {
   height: 60px;
   padding: 0 32px;
   border-radius: 5px;
-  background: var(--bt-grad);
-  color: #FFFFFF;
+  background: #FFFFFF;
+  color: var(--bt-bg);
   font-size: 15px;
   font-weight: 600;
   letter-spacing: .06em;
@@ -38,7 +37,7 @@ body {
 }
 .choice:hover {
   transform: translateY(-3px);
-  box-shadow: 0 14px 32px -10px rgba(63, 249, 165, .6);
+  box-shadow: 0 14px 32px -10px rgba(0, 0, 0, .35);
 }
 @media (max-width: 560px) {
   .choices { flex-direction: column; }
