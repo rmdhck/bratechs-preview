@@ -4,7 +4,7 @@
       "id": "2026-11-12-18h",
       "date": "2026-11-12",
       "slot": "18h",
-      "publishedAt": "2026-11-12T21:42:21.123Z",
+      "publishedAt": "2026-11-13T01:38:13.496Z",
       "items": [
         {
           "id": "lZ2FjeS1zeXN0ZW0",
@@ -23,7 +23,7 @@
           },
           "publishedAt": "2026-11-12T18:28:00.000Z",
           "alsoIn": [],
-          "score": 11.18
+          "score": 10.6
         },
         {
           "id": "0LXR1cm5zLmh0bWw",
@@ -47,7 +47,7 @@
               "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/"
             }
           ],
-          "score": 10.48
+          "score": 9.92
         },
         {
           "id": "lsbC1hbmQuaHRtbA",
@@ -66,7 +66,7 @@
           },
           "publishedAt": "2026-11-12T11:33:15.000Z",
           "alsoIn": [],
-          "score": 9.95
+          "score": 9.6
         }
       ]
     },
@@ -233,7 +233,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-12T21:42:21.123Z",
+  "updatedAt": "2026-11-13T01:38:13.496Z",
   "sources": [
     {
       "name": "The Hacker News",
