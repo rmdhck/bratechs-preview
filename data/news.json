@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-13-12h",
+      "date": "2026-11-13",
+      "slot": "12h",
+      "publishedAt": "2026-11-13T16:52:36.171Z",
+      "items": [
+        {
+          "id": "RhdGEtYnJlYWNoLw",
+          "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+          "originalTitle": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+          "summary": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared first on…",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+          "source": {
+            "name": "SecurityWeek",
+            "home": "https://www.securityweek.com"
+          },
+          "publishedAt": "2026-11-13T15:20:00.000Z",
+          "alsoIn": [],
+          "score": 10.99
+        },
+        {
+          "id": "yb290LWFjY2Vzcy8",
+          "title": "Check Point warns of zero-day flaw exploited for root access",
+          "originalTitle": "Check Point warns of zero-day flaw exploited for root access",
+          "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+          "source": {
+            "name": "BleepingComputer",
+            "home": "https://www.bleepingcomputer.com"
+          },
+          "publishedAt": "2026-11-13T10:44:22.000Z",
+          "alsoIn": [],
+          "score": 9.94
+        },
+        {
+          "id": "aXQtc2lnbmRyb3Av",
+          "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+          "originalTitle": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+          "summary": "It abuses CLFS and Windows Defender to trigger arbitrary file creation in the context of the antimalware process. The post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’ appeared first on SecurityWeek .",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/",
+          "source": {
+            "name": "SecurityWeek",
+            "home": "https://www.securityweek.com"
+          },
+          "publishedAt": "2026-11-13T08:50:36.000Z",
+          "alsoIn": [],
+          "score": 9.49
+        }
+      ]
+    },
+    {
       "id": "2026-11-12-18h",
       "date": "2026-11-12",
       "slot": "18h",
@@ -233,7 +298,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-13T01:38:13.496Z",
+  "updatedAt": "2026-11-13T16:52:36.171Z",
   "sources": [
     {
       "name": "The Hacker News",
