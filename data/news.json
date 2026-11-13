@@ -1,6 +1,76 @@
 {
   "editions": [
     {
+      "id": "2026-11-13-18h",
+      "date": "2026-11-13",
+      "slot": "18h",
+      "publishedAt": "2026-11-13T21:09:19.806Z",
+      "items": [
+        {
+          "id": "0aWVzLWNhdGFsb2c",
+          "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+          "originalTitle": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+          "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products Incorrect Permission Assignment for…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "source": {
+            "name": "CISA",
+            "home": "https://www.cisa.gov"
+          },
+          "publishedAt": "2026-11-13T12:00:00.000Z",
+          "alsoIn": [
+            {
+              "name": "SecurityWeek",
+              "link": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/"
+            }
+          ],
+          "score": 11.76
+        },
+        {
+          "id": "jb25uZWN0Lmh0bWw",
+          "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+          "originalTitle": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+          "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+          "source": {
+            "name": "The Hacker News",
+            "home": "https://thehackernews.com"
+          },
+          "publishedAt": "2026-11-12T13:08:28.000Z",
+          "alsoIn": [],
+          "score": 8.8
+        },
+        {
+          "id": "dGxvYWRlci5odG1s",
+          "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+          "originalTitle": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+          "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000…",
+          "why": "Ransomware segue como a principal causa de paralisação de operações; backups testados e EDR ativo reduzem o impacto.",
+          "category": "Ransomware",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+          "source": {
+            "name": "The Hacker News",
+            "home": "https://thehackernews.com"
+          },
+          "publishedAt": "2026-11-13T10:55:03.000Z",
+          "alsoIn": [],
+          "score": 8.64
+        }
+      ]
+    },
+    {
       "id": "2026-11-13-12h",
       "date": "2026-11-13",
       "slot": "12h",
@@ -298,7 +368,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-13T16:52:36.171Z",
+  "updatedAt": "2026-11-13T21:09:19.806Z",
   "sources": [
     {
       "name": "The Hacker News",
