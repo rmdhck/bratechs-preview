@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-14-18h",
+      "date": "2026-11-14",
+      "slot": "18h",
+      "publishedAt": "2026-11-14T19:40:09.790Z",
+      "items": [
+        {
+          "id": "UtZXh0ZW5zaW9uLw",
+          "title": "Cursor confirms security breach led to malicious Claude Code extension",
+          "originalTitle": "Cursor confirms security breach led to malicious Claude Code extension",
+          "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+          "source": {
+            "name": "BleepingComputer",
+            "home": "https://www.bleepingcomputer.com"
+          },
+          "publishedAt": "2026-11-14T17:27:25.000Z",
+          "alsoIn": [],
+          "score": 6.56
+        },
+        {
+          "id": "NsdWRpbmcuaHRtbA",
+          "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+          "originalTitle": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+          "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "media",
+          "lang": "en",
+          "ai": false,
+          "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+          "source": {
+            "name": "The Hacker News",
+            "home": "https://thehackernews.com"
+          },
+          "publishedAt": "2026-11-13T16:53:08.000Z",
+          "alsoIn": [],
+          "score": 6.44
+        },
+        {
+          "id": "1kYXRhLWJyZWFjaA",
+          "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+          "originalTitle": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+          "summary": "Osaka, Japan's third-largest city, told its 2.8 million residents to be wary of suspicious emails purporting to come from the local government.",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+          "source": {
+            "name": "The Record",
+            "home": "https://therecord.media"
+          },
+          "publishedAt": "2026-11-13T19:43:00.000Z",
+          "alsoIn": [],
+          "score": 6.34
+        }
+      ]
+    },
+    {
       "id": "2026-11-14-12h",
       "date": "2026-11-14",
       "slot": "12h",
@@ -433,7 +498,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-14T15:27:03.612Z",
+  "updatedAt": "2026-11-14T19:40:09.790Z",
   "sources": [
     {
       "name": "The Hacker News",
