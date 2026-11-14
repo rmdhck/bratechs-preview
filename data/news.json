@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-14-12h",
+      "date": "2026-11-14",
+      "slot": "12h",
+      "publishedAt": "2026-11-14T15:27:03.612Z",
+      "items": [
+        {
+          "id": "iZXJzZWN1cml0eS8",
+          "title": "Is AI Making Us Worse at Cybersecurity?",
+          "originalTitle": "Is AI Making Us Worse at Cybersecurity?",
+          "summary": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there’s no playbook. The post Is AI Making Us Worse at Cybersecurity? appeared first on SecurityWeek .",
+          "why": "A IA acelera tanto ataques quanto defesas; políticas de uso e monitoramento são essenciais.",
+          "category": "IA e segurança",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+          "source": {
+            "name": "SecurityWeek",
+            "home": "https://www.securityweek.com"
+          },
+          "publishedAt": "2026-11-14T14:00:00.000Z",
+          "alsoIn": [],
+          "score": 8.8
+        },
+        {
+          "id": "b213YXJlLWJvb20v",
+          "title": "Beware the New AI-Fueled Ransomware Boom",
+          "originalTitle": "Beware the New AI-Fueled Ransomware Boom",
+          "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.",
+          "why": "Ransomware segue como a principal causa de paralisação de operações; backups testados e EDR ativo reduzem o impacto.",
+          "category": "Ransomware",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+          "source": {
+            "name": "WIRED Security",
+            "home": "https://www.wired.com"
+          },
+          "publishedAt": "2026-11-14T13:00:00.000Z",
+          "alsoIn": [],
+          "score": 8.72
+        },
+        {
+          "id": "Y3VyaXR5LWdhcHMv",
+          "title": "How one AI agent exposed five critical enterprise security gaps",
+          "originalTitle": "How one AI agent exposed five critical enterprise security gaps",
+          "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders…",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+          "source": {
+            "name": "BleepingComputer",
+            "home": "https://www.bleepingcomputer.com"
+          },
+          "publishedAt": "2026-11-13T15:01:11.000Z",
+          "alsoIn": [],
+          "score": 7.02
+        }
+      ]
+    },
+    {
       "id": "2026-11-13-18h",
       "date": "2026-11-13",
       "slot": "18h",
@@ -368,7 +433,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-14T01:11:53.255Z",
+  "updatedAt": "2026-11-14T15:27:03.612Z",
   "sources": [
     {
       "name": "The Hacker News",
