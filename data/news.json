@@ -4,7 +4,7 @@
       "id": "2026-11-13-18h",
       "date": "2026-11-13",
       "slot": "18h",
-      "publishedAt": "2026-11-13T21:09:19.806Z",
+      "publishedAt": "2026-11-14T01:11:53.255Z",
       "items": [
         {
           "id": "0aWVzLWNhdGFsb2c",
@@ -28,26 +28,26 @@
               "link": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/"
             }
           ],
-          "score": 11.76
+          "score": 11.37
         },
         {
-          "id": "jb25uZWN0Lmh0bWw",
-          "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-          "originalTitle": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-          "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The…",
+          "id": "VyYWJpbGl0aWVzLw",
+          "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+          "originalTitle": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+          "summary": "Successful exploitation could lead to unexpected behavior or denial-of-service (DoS) conditions. The post Citrix Patches 10 Critical NetScaler Vulnerabilities appeared first on SecurityWeek .",
           "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
           "category": "Vulnerabilidade",
           "severity": "critica",
           "lang": "en",
           "ai": false,
-          "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+          "link": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
           "source": {
-            "name": "The Hacker News",
-            "home": "https://thehackernews.com"
+            "name": "SecurityWeek",
+            "home": "https://www.securityweek.com"
           },
-          "publishedAt": "2026-11-12T13:08:28.000Z",
+          "publishedAt": "2026-11-13T09:36:56.000Z",
           "alsoIn": [],
-          "score": 8.8
+          "score": 8.29
         },
         {
           "id": "dGxvYWRlci5odG1s",
@@ -66,7 +66,7 @@
           },
           "publishedAt": "2026-11-13T10:55:03.000Z",
           "alsoIn": [],
-          "score": 8.64
+          "score": 8.28
         }
       ]
     },
@@ -368,7 +368,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-13T21:09:19.806Z",
+  "updatedAt": "2026-11-14T01:11:53.255Z",
   "sources": [
     {
       "name": "The Hacker News",
