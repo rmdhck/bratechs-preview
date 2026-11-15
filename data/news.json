@@ -1,6 +1,76 @@
 {
   "editions": [
     {
+      "id": "2026-11-15-18h",
+      "date": "2026-11-15",
+      "slot": "18h",
+      "publishedAt": "2026-11-15T20:06:30.993Z",
+      "items": [
+        {
+          "id": "eWJlcmF0dGFja3Mv",
+          "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+          "originalTitle": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+          "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+          "source": {
+            "name": "BleepingComputer",
+            "home": "https://www.bleepingcomputer.com"
+          },
+          "publishedAt": "2026-11-15T18:29:53.000Z",
+          "alsoIn": [],
+          "score": 10.37
+        },
+        {
+          "id": "1jdXJzb3IuaHRtbA",
+          "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+          "originalTitle": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+          "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday…",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+          "source": {
+            "name": "The Hacker News",
+            "home": "https://thehackernews.com"
+          },
+          "publishedAt": "2026-11-15T08:22:04.000Z",
+          "alsoIn": [
+            {
+              "name": "BleepingComputer",
+              "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/"
+            }
+          ],
+          "score": 5.3
+        },
+        {
+          "id": "9waG9uZS1kYXRhLw",
+          "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+          "originalTitle": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+          "summary": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones. The post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared first on SecurityWeek .",
+          "why": "Acompanhar o cenário de ameaças ajuda a priorizar investimentos e respostas.",
+          "category": "Ameaças",
+          "severity": "media",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+          "source": {
+            "name": "SecurityWeek",
+            "home": "https://www.securityweek.com"
+          },
+          "publishedAt": "2026-11-14T11:00:00.000Z",
+          "alsoIn": [],
+          "score": 4.08
+        }
+      ]
+    },
+    {
       "id": "2026-11-15-12h",
       "date": "2026-11-15",
       "slot": "12h",
@@ -568,7 +638,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-15T15:58:59.250Z",
+  "updatedAt": "2026-11-15T20:06:30.993Z",
   "sources": [
     {
       "name": "The Hacker News",
