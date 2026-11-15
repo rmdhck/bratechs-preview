@@ -1,6 +1,76 @@
 {
   "editions": [
     {
+      "id": "2026-11-15-12h",
+      "date": "2026-11-15",
+      "slot": "12h",
+      "publishedAt": "2026-11-15T15:58:59.250Z",
+      "items": [
+        {
+          "id": "b24tb3Zlci5odG1s",
+          "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+          "originalTitle": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+          "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users'…",
+          "why": "Acompanhar o cenário de ameaças ajuda a priorizar investimentos e respostas.",
+          "category": "Ameaças",
+          "severity": "media",
+          "lang": "en",
+          "ai": false,
+          "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+          "source": {
+            "name": "The Hacker News",
+            "home": "https://thehackernews.com"
+          },
+          "publishedAt": "2026-11-15T11:27:31.000Z",
+          "alsoIn": [
+            {
+              "name": "SecurityWeek",
+              "link": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/"
+            }
+          ],
+          "score": 12.17
+        },
+        {
+          "id": "1ZC1wcm92aWRlci8",
+          "title": "TSMC employee data breach linked to cloud provider",
+          "originalTitle": "TSMC employee data breach linked to cloud provider",
+          "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+          "source": {
+            "name": "BleepingComputer",
+            "home": "https://www.bleepingcomputer.com"
+          },
+          "publishedAt": "2026-11-15T15:23:48.000Z",
+          "alsoIn": [],
+          "score": 8.88
+        },
+        {
+          "id": "lbmNlLW9mZmljZS8",
+          "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+          "originalTitle": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+          "summary": "The move follows President Trump’s order to replace “artificial intelligence” with “super intelligence” in executive branch communications. The post Pentagon Renames CDAO ‘Super Intelligence Office’ appeared first on SecurityWeek .",
+          "why": "Acompanhar o cenário de ameaças ajuda a priorizar investimentos e respostas.",
+          "category": "Ameaças",
+          "severity": "media",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+          "source": {
+            "name": "SecurityWeek",
+            "home": "https://www.securityweek.com"
+          },
+          "publishedAt": "2026-11-15T12:51:33.000Z",
+          "alsoIn": [],
+          "score": 6
+        }
+      ]
+    },
+    {
       "id": "2026-11-14-18h",
       "date": "2026-11-14",
       "slot": "18h",
@@ -498,7 +568,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-15T00:38:18.065Z",
+  "updatedAt": "2026-11-15T15:58:59.250Z",
   "sources": [
     {
       "name": "The Hacker News",
