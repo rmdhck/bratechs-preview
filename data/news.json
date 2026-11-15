@@ -4,26 +4,26 @@
       "id": "2026-11-14-18h",
       "date": "2026-11-14",
       "slot": "18h",
-      "publishedAt": "2026-11-14T19:40:09.790Z",
+      "publishedAt": "2026-11-15T00:38:18.065Z",
       "items": [
         {
-          "id": "UtZXh0ZW5zaW9uLw",
-          "title": "Cursor confirms security breach led to malicious Claude Code extension",
-          "originalTitle": "Cursor confirms security breach led to malicious Claude Code extension",
-          "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
-          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
-          "category": "Vazamento de dados",
+          "id": "hdy10aGF0Lmh0bWw",
+          "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+          "originalTitle": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability,…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
           "severity": "alta",
           "lang": "en",
           "ai": false,
-          "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+          "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
           "source": {
-            "name": "BleepingComputer",
-            "home": "https://www.bleepingcomputer.com"
+            "name": "The Hacker News",
+            "home": "https://thehackernews.com"
           },
-          "publishedAt": "2026-11-14T17:27:25.000Z",
+          "publishedAt": "2026-11-14T12:38:35.000Z",
           "alsoIn": [],
-          "score": 6.56
+          "score": 7.77
         },
         {
           "id": "NsdWRpbmcuaHRtbA",
@@ -42,7 +42,7 @@
           },
           "publishedAt": "2026-11-13T16:53:08.000Z",
           "alsoIn": [],
-          "score": 6.44
+          "score": 6.31
         },
         {
           "id": "1kYXRhLWJyZWFjaA",
@@ -61,7 +61,7 @@
           },
           "publishedAt": "2026-11-13T19:43:00.000Z",
           "alsoIn": [],
-          "score": 6.34
+          "score": 6.18
         }
       ]
     },
@@ -498,7 +498,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-14T19:40:09.790Z",
+  "updatedAt": "2026-11-15T00:38:18.065Z",
   "sources": [
     {
       "name": "The Hacker News",
