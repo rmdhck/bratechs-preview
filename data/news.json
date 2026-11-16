@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-16-18h",
+      "date": "2026-11-16",
+      "slot": "18h",
+      "publishedAt": "2026-11-16T19:06:55.422Z",
+      "items": [
+        {
+          "id": "1pbi02MC1kYXlzLw",
+          "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+          "originalTitle": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+          "summary": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]",
+          "why": "Acompanhar o cenário de ameaças ajuda a priorizar investimentos e respostas.",
+          "category": "Ameaças",
+          "severity": "media",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+          "source": {
+            "name": "BleepingComputer",
+            "home": "https://www.bleepingcomputer.com"
+          },
+          "publishedAt": "2026-11-16T12:53:18.000Z",
+          "alsoIn": [],
+          "score": 10.12
+        },
+        {
+          "id": "yZS1kZWFkbGluZS8",
+          "title": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
+          "originalTitle": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
+          "summary": "It will move to a 60-day vulnerability disclosure window in February 2027 and to a 30-day window in January 2028. The post Google Project Zero Sets Course for 30-Day Disclosure Deadline appeared first on SecurityWeek .",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "media",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/",
+          "source": {
+            "name": "SecurityWeek",
+            "home": "https://www.securityweek.com"
+          },
+          "publishedAt": "2026-11-16T15:31:25.000Z",
+          "alsoIn": [],
+          "score": 10.12
+        },
+        {
+          "id": "b290LWF0YXF1ZXMv",
+          "title": "Zero-day na Check Point permite acesso root e integra ataques destrutivos contra infraestrutura corporativa",
+          "originalTitle": "Zero-day na Check Point permite acesso root e integra ataques destrutivos contra infraestrutura corporativa",
+          "summary": "A CVE-2026-123039 foi explorada em ataques a gateways Check Point. Entenda a cadeia PHP2Shell, o acesso root, o risco ao VMware ESXi e as correções. [...] The post Zero-day na Check Point permite acesso root e integra ataques destrutivos contra infraestrutura corporativa appeared first on Minuto da…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://minutodaseguranca.blog.br/check-point-cve-2026-123039-zero-day-root-ataques/",
+          "source": {
+            "name": "Minuto da Segurança",
+            "home": "https://minutodaseguranca.blog.br"
+          },
+          "publishedAt": "2026-11-16T06:10:00.000Z",
+          "alsoIn": [],
+          "score": 9.99
+        }
+      ]
+    },
+    {
       "id": "2026-11-15-18h",
       "date": "2026-11-15",
       "slot": "18h",
@@ -633,7 +698,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-16T00:38:29.120Z",
+  "updatedAt": "2026-11-16T19:06:55.422Z",
   "sources": [
     {
       "name": "The Hacker News",
