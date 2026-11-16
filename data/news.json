@@ -4,7 +4,7 @@
       "id": "2026-11-15-18h",
       "date": "2026-11-15",
       "slot": "18h",
-      "publishedAt": "2026-11-15T20:06:30.993Z",
+      "publishedAt": "2026-11-16T00:38:29.120Z",
       "items": [
         {
           "id": "eWJlcmF0dGFja3Mv",
@@ -23,50 +23,45 @@
           },
           "publishedAt": "2026-11-15T18:29:53.000Z",
           "alsoIn": [],
-          "score": 10.37
+          "score": 9.63
         },
         {
-          "id": "1jdXJzb3IuaHRtbA",
-          "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-          "originalTitle": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-          "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday…",
-          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
-          "category": "Vazamento de dados",
-          "severity": "alta",
+          "id": "jb25uZWN0Lmh0bWw",
+          "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+          "originalTitle": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+          "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
           "lang": "en",
           "ai": false,
-          "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+          "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
           "source": {
             "name": "The Hacker News",
             "home": "https://thehackernews.com"
           },
-          "publishedAt": "2026-11-15T08:22:04.000Z",
-          "alsoIn": [
-            {
-              "name": "BleepingComputer",
-              "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/"
-            }
-          ],
-          "score": 5.3
+          "publishedAt": "2026-11-12T13:08:28.000Z",
+          "alsoIn": [],
+          "score": 8.51
         },
         {
-          "id": "9waG9uZS1kYXRhLw",
-          "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
-          "originalTitle": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
-          "summary": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones. The post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared first on SecurityWeek .",
-          "why": "Acompanhar o cenário de ameaças ajuda a priorizar investimentos e respostas.",
-          "category": "Ameaças",
+          "id": "yaW4tY3B1Lmh0bWw",
+          "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+          "originalTitle": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+          "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
           "severity": "media",
           "lang": "en",
           "ai": false,
-          "link": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+          "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
           "source": {
-            "name": "SecurityWeek",
-            "home": "https://www.securityweek.com"
+            "name": "The Hacker News",
+            "home": "https://thehackernews.com"
           },
-          "publishedAt": "2026-11-14T11:00:00.000Z",
+          "publishedAt": "2026-11-12T12:09:14.000Z",
           "alsoIn": [],
-          "score": 4.08
+          "score": 8.21
         }
       ]
     },
@@ -638,7 +633,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-15T20:06:30.993Z",
+  "updatedAt": "2026-11-16T00:38:29.120Z",
   "sources": [
     {
       "name": "The Hacker News",
