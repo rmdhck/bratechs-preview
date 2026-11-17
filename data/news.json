@@ -4,7 +4,7 @@
       "id": "2026-11-17-18h",
       "date": "2026-11-17",
       "slot": "18h",
-      "publishedAt": "2026-11-17T18:01:58.557Z",
+      "publishedAt": "2026-11-17T22:46:19.020Z",
       "items": [
         {
           "id": "wtemVyby1kYXlzLw",
@@ -23,7 +23,7 @@
           },
           "publishedAt": "2026-11-17T12:28:45.000Z",
           "alsoIn": [],
-          "score": 13.62
+          "score": 13.04
         },
         {
           "id": "zYS0yNi0zMjEtMDc",
@@ -42,7 +42,7 @@
           },
           "publishedAt": "2026-11-17T12:00:00.000Z",
           "alsoIn": [],
-          "score": 12.55
+          "score": 11.99
         },
         {
           "id": "2NS1zZXNzaW9ucy8",
@@ -61,7 +61,7 @@
           },
           "publishedAt": "2026-11-17T15:01:11.000Z",
           "alsoIn": [],
-          "score": 9.92
+          "score": 9.22
         }
       ]
     },
@@ -833,7 +833,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-17T18:01:58.557Z",
+  "updatedAt": "2026-11-17T22:46:19.020Z",
   "sources": [
     {
       "name": "The Hacker News",
