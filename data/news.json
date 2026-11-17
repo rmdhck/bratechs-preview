@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-17-18h",
+      "date": "2026-11-17",
+      "slot": "18h",
+      "publishedAt": "2026-11-17T18:01:58.557Z",
+      "items": [
+        {
+          "id": "wtemVyby1kYXlzLw",
+          "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+          "originalTitle": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+          "summary": "The patches target recently disclosed zero-days, as well as vulnerabilities already exploited in the wild. The post N-able Kills Legacy APIs, Patches 17 N-central Zero-Days appeared first on SecurityWeek .",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
+          "source": {
+            "name": "SecurityWeek",
+            "home": "https://www.securityweek.com"
+          },
+          "publishedAt": "2026-11-17T12:28:45.000Z",
+          "alsoIn": [],
+          "score": 13.62
+        },
+        {
+          "id": "zYS0yNi0zMjEtMDc",
+          "title": "Siemens RUGGEDCOM APE1808",
+          "originalTitle": "Siemens RUGGEDCOM APE1808",
+          "summary": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer support…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+          "source": {
+            "name": "CISA",
+            "home": "https://www.cisa.gov"
+          },
+          "publishedAt": "2026-11-17T12:00:00.000Z",
+          "alsoIn": [],
+          "score": 12.55
+        },
+        {
+          "id": "2NS1zZXNzaW9ucy8",
+          "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+          "originalTitle": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+          "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
+          "why": "Golpes por e-mail e mensagem continuam sendo a porta de entrada mais comum; treinamento e filtros fazem diferença.",
+          "category": "Phishing e golpes",
+          "severity": "media",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+          "source": {
+            "name": "BleepingComputer",
+            "home": "https://www.bleepingcomputer.com"
+          },
+          "publishedAt": "2026-11-17T15:01:11.000Z",
+          "alsoIn": [],
+          "score": 9.92
+        }
+      ]
+    },
+    {
       "id": "2026-11-17-06h",
       "date": "2026-11-17",
       "slot": "06h",
@@ -768,7 +833,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-17T03:21:53.365Z",
+  "updatedAt": "2026-11-17T18:01:58.557Z",
   "sources": [
     {
       "name": "The Hacker News",
