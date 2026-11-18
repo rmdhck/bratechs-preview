@@ -4,7 +4,7 @@
       "id": "2026-11-17-18h",
       "date": "2026-11-17",
       "slot": "18h",
-      "publishedAt": "2026-11-17T22:46:19.020Z",
+      "publishedAt": "2026-11-18T02:42:13.677Z",
       "items": [
         {
           "id": "wtemVyby1kYXlzLw",
@@ -23,26 +23,31 @@
           },
           "publishedAt": "2026-11-17T12:28:45.000Z",
           "alsoIn": [],
-          "score": 13.04
+          "score": 12.69
         },
         {
-          "id": "zYS0yNi0zMjEtMDc",
-          "title": "Siemens RUGGEDCOM APE1808",
-          "originalTitle": "Siemens RUGGEDCOM APE1808",
-          "summary": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer support…",
+          "id": "F0ZS1wYXRjaGluZw",
+          "title": "Critical Java Vulnerability Requires Immediate Patching",
+          "originalTitle": "Critical Java Vulnerability Requires Immediate Patching",
+          "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the…",
           "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
           "category": "Vulnerabilidade",
           "severity": "critica",
           "lang": "en",
           "ai": false,
-          "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+          "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
           "source": {
             "name": "CISA",
             "home": "https://www.cisa.gov"
           },
           "publishedAt": "2026-11-17T12:00:00.000Z",
-          "alsoIn": [],
-          "score": 11.99
+          "alsoIn": [
+            {
+              "name": "The Hacker News",
+              "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+            }
+          ],
+          "score": 12.25
         },
         {
           "id": "2NS1zZXNzaW9ucy8",
@@ -61,7 +66,7 @@
           },
           "publishedAt": "2026-11-17T15:01:11.000Z",
           "alsoIn": [],
-          "score": 9.22
+          "score": 8.8
         }
       ]
     },
@@ -833,7 +838,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-17T22:46:19.020Z",
+  "updatedAt": "2026-11-18T02:42:13.677Z",
   "sources": [
     {
       "name": "The Hacker News",
