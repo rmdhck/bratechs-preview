@@ -1,6 +1,80 @@
 {
   "editions": [
     {
+      "id": "2026-11-18-12h",
+      "date": "2026-11-18",
+      "slot": "12h",
+      "publishedAt": "2026-11-18T17:42:00.823Z",
+      "items": [
+        {
+          "id": "wZXQtcmNlLmh0bWw",
+          "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+          "originalTitle": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+          "source": {
+            "name": "The Hacker News",
+            "home": "https://thehackernews.com"
+          },
+          "publishedAt": "2026-11-18T08:24:31.000Z",
+          "alsoIn": [
+            {
+              "name": "SecurityWeek",
+              "link": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/"
+            },
+            {
+              "name": "CISA",
+              "link": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog"
+            }
+          ],
+          "score": 14.14
+        },
+        {
+          "id": "zYS0yNi0zMjEtMDc",
+          "title": "Siemens RUGGEDCOM APE1808",
+          "originalTitle": "Siemens RUGGEDCOM APE1808",
+          "summary": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer support…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+          "source": {
+            "name": "CISA",
+            "home": "https://www.cisa.gov"
+          },
+          "publishedAt": "2026-11-17T12:00:00.000Z",
+          "alsoIn": [],
+          "score": 10.96
+        },
+        {
+          "id": "vbmFnZS1nb29nbGU",
+          "title": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
+          "originalTitle": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
+          "summary": "Russian state-backed hackers are using information stolen from cloud accounts to impersonate trusted contacts and launch new espionage attacks against people in their victims' professional networks, according to new research.",
+          "why": "Grupos patrocinados por Estados miram cadeias de fornecedores; organizações sensíveis devem redobrar a atenção.",
+          "category": "Espionagem",
+          "severity": "media",
+          "lang": "en",
+          "ai": false,
+          "link": "https://therecord.media/russia-cyber-espionage-google",
+          "source": {
+            "name": "The Record",
+            "home": "https://therecord.media"
+          },
+          "publishedAt": "2026-11-18T15:15:00.000Z",
+          "alsoIn": [],
+          "score": 8.32
+        }
+      ]
+    },
+    {
       "id": "2026-11-17-18h",
       "date": "2026-11-17",
       "slot": "18h",
@@ -838,7 +912,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-18T02:42:13.677Z",
+  "updatedAt": "2026-11-18T17:42:00.823Z",
   "sources": [
     {
       "name": "The Hacker News",
