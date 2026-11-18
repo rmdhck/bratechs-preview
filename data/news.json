@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-18-18h",
+      "date": "2026-11-18",
+      "slot": "18h",
+      "publishedAt": "2026-11-18T22:27:29.625Z",
+      "items": [
+        {
+          "id": "dGllcy1jYXRhbG9n",
+          "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+          "originalTitle": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+          "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotected Alternate…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+          "source": {
+            "name": "CISA",
+            "home": "https://www.cisa.gov"
+          },
+          "publishedAt": "2026-11-18T12:00:00.000Z",
+          "alsoIn": [],
+          "score": 10.12
+        },
+        {
+          "id": "N5YmVyLWdyb3Vwcw",
+          "title": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
+          "originalTitle": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
+          "summary": "Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.",
+          "why": "Ransomware segue como a principal causa de paralisação de operações; backups testados e EDR ativo reduzem o impacto.",
+          "category": "Ransomware",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
+          "source": {
+            "name": "Dark Reading",
+            "home": "https://www.darkreading.com"
+          },
+          "publishedAt": "2026-11-18T20:38:42.000Z",
+          "alsoIn": [],
+          "score": 9.94
+        },
+        {
+          "id": "ctdW5kZXIuaHRtbA",
+          "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+          "originalTitle": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+          "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+          "source": {
+            "name": "The Hacker News",
+            "home": "https://thehackernews.com"
+          },
+          "publishedAt": "2026-11-18T17:10:45.000Z",
+          "alsoIn": [],
+          "score": 9.56
+        }
+      ]
+    },
+    {
       "id": "2026-11-18-12h",
       "date": "2026-11-18",
       "slot": "12h",
@@ -912,7 +977,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-18T17:42:00.823Z",
+  "updatedAt": "2026-11-18T22:27:29.625Z",
   "sources": [
     {
       "name": "The Hacker News",
