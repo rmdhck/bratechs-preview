@@ -4,7 +4,7 @@
       "id": "2026-11-18-18h",
       "date": "2026-11-18",
       "slot": "18h",
-      "publishedAt": "2026-11-18T22:27:29.625Z",
+      "publishedAt": "2026-11-19T02:12:10.424Z",
       "items": [
         {
           "id": "dGllcy1jYXRhbG9n",
@@ -23,7 +23,26 @@
           },
           "publishedAt": "2026-11-18T12:00:00.000Z",
           "alsoIn": [],
-          "score": 10.12
+          "score": 9.79
+        },
+        {
+          "id": "taW4tcmFuc29tcy8",
+          "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+          "originalTitle": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+          "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
+          "why": "Ransomware segue como a principal causa de paralisação de operações; backups testados e EDR ativo reduzem o impacto.",
+          "category": "Ransomware",
+          "severity": "alta",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+          "source": {
+            "name": "BleepingComputer",
+            "home": "https://www.bleepingcomputer.com"
+          },
+          "publishedAt": "2026-11-18T23:08:33.000Z",
+          "alsoIn": [],
+          "score": 9.61
         },
         {
           "id": "N5YmVyLWdyb3Vwcw",
@@ -42,26 +61,7 @@
           },
           "publishedAt": "2026-11-18T20:38:42.000Z",
           "alsoIn": [],
-          "score": 9.94
-        },
-        {
-          "id": "ctdW5kZXIuaHRtbA",
-          "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-          "originalTitle": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-          "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in…",
-          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
-          "category": "Vulnerabilidade",
-          "severity": "critica",
-          "lang": "en",
-          "ai": false,
-          "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-          "source": {
-            "name": "The Hacker News",
-            "home": "https://thehackernews.com"
-          },
-          "publishedAt": "2026-11-18T17:10:45.000Z",
-          "alsoIn": [],
-          "score": 9.56
+          "score": 9.32
         }
       ]
     },
@@ -977,7 +977,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-18T22:27:29.625Z",
+  "updatedAt": "2026-11-19T02:12:10.424Z",
   "sources": [
     {
       "name": "The Hacker News",
