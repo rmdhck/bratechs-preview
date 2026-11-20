@@ -4,27 +4,8 @@
       "id": "2026-11-20-12h",
       "date": "2026-11-20",
       "slot": "12h",
-      "publishedAt": "2026-11-20T15:28:22.849Z",
+      "publishedAt": "2026-11-20T17:27:14.809Z",
       "items": [
-        {
-          "id": "kZS1zZXRlbWJyby8",
-          "title": "Falha zero-day no VMware vCenter explorada desde setembro",
-          "originalTitle": "Falha zero-day no VMware vCenter explorada desde setembro",
-          "summary": "Um grupo de espionagem suspeito de ligação com a China explorou uma falha zero-day no VMware vCenter Server no início de setembro de 2026, obtendo acesso de administrador e roubando arquivos de uma máquina virtual Windows. A Mandiant e o Google Threat Intelligence Group (GTIG) atribuíram a intrusão…",
-          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
-          "category": "Vulnerabilidade",
-          "severity": "critica",
-          "lang": "pt",
-          "ai": false,
-          "link": "https://www.cisoadvisor.com.br/falha-zero-day-no-vmware-vcenter-explorada-desde-setembro/",
-          "source": {
-            "name": "CISO Advisor",
-            "home": "https://www.cisoadvisor.com.br"
-          },
-          "publishedAt": "2026-11-20T06:53:03.000Z",
-          "alsoIn": [],
-          "score": 11.42
-        },
         {
           "id": "Mtbm8tYnJhc2lsLw",
           "title": "Cibercriminosos russos usam IA para aplicar golpes no Brasil",
@@ -42,35 +23,45 @@
           },
           "publishedAt": "2026-11-20T11:30:00.000Z",
           "alsoIn": [],
-          "score": 10.96
+          "score": 10.66
         },
         {
-          "id": "Qtbm8tYnJhc2lsLw",
-          "title": "ANPD rejeita recurso e mantém suspensão de lives do Discord no Brasil",
-          "originalTitle": "ANPD rejeita recurso e mantém suspensão de lives do Discord no Brasil",
-          "summary": "As transmissões ao vivo no Discord seguirão bloqueadas por tempo indeterminado no Brasil. A decisão é do conselho diretor da Autoridade Nacional de Proteção de Dados (ANPD) , que anunciou nesta quinta-feira (19) a decisão. Em análise, a ANPD optou por rejeitar o recurso apresentado pela empresa para…",
-          "why": "Acompanhar o cenário de ameaças ajuda a priorizar investimentos e respostas.",
-          "category": "Ameaças",
+          "id": "N1cHJpbWVudG9zLw",
+          "title": "Ataque à Optimizely expõe sites populares e acende alerta sobre riscos na cadeia de suprimentos",
+          "originalTitle": "Ataque à Optimizely expõe sites populares e acende alerta sobre riscos na cadeia de suprimentos",
+          "summary": "A recente invasão à plataforma de otimização Optimizely comprometeu a segurança de dezenas de sites de grande visibilidade global, como Zoom, HSBC, Equifax, CNN, Salesforce e Ikea. A vulnerabilidade permitiu a inserção de scripts maliciosos em JavaScript voltados ao roubo de criptomoedas, captura de…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
           "severity": "media",
           "lang": "pt",
           "ai": false,
-          "link": "https://www.estadao.com.br/tecmundo/anpd-rejeita-recurso-e-mantem-suspensao-de-lives-do-discord-no-brasil/",
+          "link": "https://securityleaders.com.br/ataque-a-optimizely-expoe-sites-populares-e-acende-alerta-sobre-riscos-na-cadeia-de-suprimentos/",
+          "source": {
+            "name": "Security Leaders",
+            "home": "https://securityleaders.com.br"
+          },
+          "publishedAt": "2026-11-19T19:34:30.000Z",
+          "alsoIn": [],
+          "score": 8.13
+        },
+        {
+          "id": "bmVvbi1lLW1haXMv",
+          "title": "Hoje no TecMundo (19): GTA 6 estreia com nota 99, Google lança Gemini 4 Neon e mais",
+          "originalTitle": "Hoje no TecMundo (19): GTA 6 estreia com nota 99, Google lança Gemini 4 Neon e mais",
+          "summary": "O Hoje no TecMundo desta quinta-feira (19) chega com grandes novidades no mundo dos games e da inteligência artificial! GTA 6 estreou com nota 99 no Metacritic , alcançando uma avaliação histórica e igualando o recorde de The Legend of Zelda: Ocarina of Time . Já o Google apresentou o Gemini 4 Neon,…",
+          "why": "A IA acelera tanto ataques quanto defesas; políticas de uso e monitoramento são essenciais.",
+          "category": "IA e segurança",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/big-techs/hoje-no-tecmundo-19-gta-6-estreia-com-nota-99-google-lanca-gemini-4-neon-e-mais/",
           "source": {
             "name": "Tecmundo",
             "home": "https://www.estadao.com.br"
           },
-          "publishedAt": "2026-11-19T14:30:00.000Z",
-          "alsoIn": [
-            {
-              "name": "Tecnoblog",
-              "link": "https://tecnoblog.net/noticias/anpd-nega-recurso-do-discord-e-mantem-lives-suspensas-no-brasil/"
-            },
-            {
-              "name": "IT Forum",
-              "link": "https://itforum.com.br/noticias/suspensao-lives-discord-brasil/"
-            }
-          ],
-          "score": 9.1
+          "publishedAt": "2026-11-19T22:06:00.000Z",
+          "alsoIn": [],
+          "score": 7.95
         }
       ]
     },
@@ -102,7 +93,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-20T15:28:22.849Z",
+  "updatedAt": "2026-11-20T17:27:14.809Z",
   "sources": [
     {
       "name": "CISO Advisor",
