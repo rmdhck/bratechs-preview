@@ -4,8 +4,32 @@
       "id": "2026-11-19-18h",
       "date": "2026-11-19",
       "slot": "18h",
-      "publishedAt": "2026-11-19T22:33:16.859Z",
+      "publishedAt": "2026-11-20T01:58:56.603Z",
       "items": [
+        {
+          "id": "NoaW5lc2UtYXB0Lw",
+          "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+          "originalTitle": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+          "summary": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek .",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "en",
+          "ai": false,
+          "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+          "source": {
+            "name": "SecurityWeek",
+            "home": "https://www.securityweek.com"
+          },
+          "publishedAt": "2026-11-19T19:21:06.000Z",
+          "alsoIn": [
+            {
+              "name": "BleepingComputer",
+              "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+            }
+          ],
+          "score": 16.77
+        },
         {
           "id": "VyYWJpbGl0aWVzLw",
           "title": "NGINX2Root: F5 patches five critical NGINX vulnerabilities",
@@ -28,26 +52,7 @@
               "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html"
             }
           ],
-          "score": 17.03
-        },
-        {
-          "id": "NoaW5lc2UtYXB0Lw",
-          "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
-          "originalTitle": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
-          "summary": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek .",
-          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
-          "category": "Vulnerabilidade",
-          "severity": "critica",
-          "lang": "en",
-          "ai": false,
-          "link": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
-          "source": {
-            "name": "SecurityWeek",
-            "home": "https://www.securityweek.com"
-          },
-          "publishedAt": "2026-11-19T19:21:06.000Z",
-          "alsoIn": [],
-          "score": 15.49
+          "score": 16.55
         },
         {
           "id": "VhY2gtY2xhaW1zLw",
@@ -66,7 +71,7 @@
           },
           "publishedAt": "2026-11-19T09:23:21.000Z",
           "alsoIn": [],
-          "score": 10.17
+          "score": 9.92
         }
       ]
     },
@@ -1117,7 +1122,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-19T22:33:16.859Z",
+  "updatedAt": "2026-11-20T01:58:56.603Z",
   "sources": [
     {
       "name": "The Hacker News",
