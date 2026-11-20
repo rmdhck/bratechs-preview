@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-20-18h",
+      "date": "2026-11-20",
+      "slot": "18h",
+      "publishedAt": "2026-11-20T22:05:59.527Z",
+      "items": [
+        {
+          "id": "vcnBvcmF0aXZhcy8",
+          "title": "Falha crítica em Java permite invasão remota a aplicações corporativas",
+          "originalTitle": "Falha crítica em Java permite invasão remota a aplicações corporativas",
+          "summary": "Uma falha de segurança grave identificada no OpenJDK, a plataforma aberta que serve de base para o Java, está colocando em risco servidores e aplicações corporativas em todo o mundo. A vulnerabilidade, catalogada como CEV-2026-114938 e apelidada de “ Java4Shell ”, afeta um recurso de otimização de…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/falha-critica-em-java-permite-invasao-remota-a-aplicacoes-corporativas/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-20T17:30:00.000Z",
+          "alsoIn": [],
+          "score": 7.86
+        },
+        {
+          "id": "ZXMtY3JpdGljYXMv",
+          "title": "Ataques digitais marcam a semana enquanto PHP corrige vulnerabilidades críticas",
+          "originalTitle": "Ataques digitais marcam a semana enquanto PHP corrige vulnerabilidades críticas",
+          "summary": "Entre 12 e 19 de novembro, diferentes incidentes mostraram como o comprometimento de serviços digitais pode afetar desde grandes organizações até operações cotidianas de cidadãos. Os episódios envolveram códigos maliciosos distribuídos por plataformas utilizadas por empresas, invasões a sistemas…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://securityleaders.com.br/ataques-digitais-marcam-a-semana-enquanto-php-corrige-vulnerabilidades-criticas/",
+          "source": {
+            "name": "Security Leaders",
+            "home": "https://securityleaders.com.br"
+          },
+          "publishedAt": "2026-11-19T20:11:43.000Z",
+          "alsoIn": [],
+          "score": 7.67
+        },
+        {
+          "id": "Z2FsLWRvLWpvZ28v",
+          "title": "GTA 6 pirata? Hacker Cyberleek está de volta com build ilegal do jogo",
+          "originalTitle": "GTA 6 pirata? Hacker Cyberleek está de volta com build ilegal do jogo",
+          "summary": "Um dos maiores vazamentos envolvendo GTA 6 ganhou um novo capítulo justamente após o lançamento do jogo. O hacker conhecido como Cyberleek voltou à ativa em 19 de novembro e afirma ter disponibilizado na internet uma versão de desenvolvimento do título para Xbox, com aproximadamente 209 GB. Segundo…",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/voxel/gta-6-pirata-hacker-cyberleek-esta-de-volta-com-build-ilegal-do-jogo/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-20T14:14:00.000Z",
+          "alsoIn": [],
+          "score": 6.71
+        }
+      ]
+    },
+    {
       "id": "2026-11-20-12h",
       "date": "2026-11-20",
       "slot": "12h",
@@ -93,7 +158,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-20T17:27:14.809Z",
+  "updatedAt": "2026-11-20T22:05:59.527Z",
   "sources": [
     {
       "name": "CISO Advisor",
