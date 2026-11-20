@@ -13,7 +13,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { SOURCES, KEYWORDS, NOISE, STOPWORDS } from './sources.mjs';
+import { SOURCES, KEYWORDS, NOISE, STOPWORDS, SECURITY } from './sources.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.resolve(here, '../../data/news.json');
@@ -253,8 +253,11 @@ async function main() {
   const all = (await Promise.all(SOURCES.map(fetchFeed))).flat();
   console.log(`  ${all.length} itens coletados de ${SOURCES.length} fontes`);
 
-  let pool = all.filter(i => now - i.date < 36 * 36e5 && i.date - now < 36e5);
-  if (pool.length < 15) pool = all.filter(i => now - i.date < 96 * 36e5);
+  /* só português; portais gerais entram apenas com notícia de segurança */
+  const relevant = all.filter(i => i.source.lang === 'pt' &&
+    (!i.source.general || SECURITY.test(norm(i.title + ' ' + i.excerpt))));
+  let pool = relevant.filter(i => now - i.date < 36 * 36e5 && i.date - now < 36e5);
+  if (pool.length < 15) pool = relevant.filter(i => now - i.date < 96 * 36e5);
   pool.forEach(i => { i.score = scoreItem(i, now); });
 
   const groups = cluster(pool).filter(g =>

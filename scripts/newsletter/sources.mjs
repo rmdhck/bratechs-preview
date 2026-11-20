@@ -1,20 +1,24 @@
 // Fontes varridas pelo Radar Bratechs. weight = peso editorial (autoridade/relevância).
+// Só veículos em português (decisão de 2026-11-20): o Radar publica texto 100% em PT-BR.
+// general: true = portal de tecnologia geral; só entra notícia que passar no filtro SECURITY.
 export const SOURCES = [
-  { name: 'The Hacker News',     url: 'https://feeds.feedburner.com/TheHackersNews',            lang: 'en', weight: 3.0 },
-  { name: 'BleepingComputer',    url: 'https://www.bleepingcomputer.com/feed/',                 lang: 'en', weight: 3.0 },
-  { name: 'Krebs on Security',   url: 'https://krebsonsecurity.com/feed/',                      lang: 'en', weight: 2.8 },
-  { name: 'The Record',          url: 'https://therecord.media/feed',                           lang: 'en', weight: 2.8 },
-  { name: 'SecurityWeek',        url: 'https://www.securityweek.com/feed/',                     lang: 'en', weight: 2.6 },
-  { name: 'Dark Reading',        url: 'https://www.darkreading.com/rss.xml',                    lang: 'en', weight: 2.5 },
-  { name: 'CISA',                url: 'https://www.cisa.gov/cybersecurity-advisories/all.xml',  lang: 'en', weight: 2.4 },
-  { name: 'WIRED Security',      url: 'https://www.wired.com/feed/category/security/latest/rss', lang: 'en', weight: 2.2 },
-  { name: 'Help Net Security',   url: 'https://www.helpnetsecurity.com/feed/',                  lang: 'en', weight: 2.0 },
-  { name: 'ESET WeLiveSecurity', url: 'https://www.welivesecurity.com/en/rss/feed/',            lang: 'en', weight: 1.8 },
-  { name: 'CISO Advisor',        url: 'https://www.cisoadvisor.com.br/feed/',                   lang: 'pt', weight: 2.6 },
-  { name: 'The Hack',            url: 'https://thehack.com.br/feed/',                           lang: 'pt', weight: 2.2 },
-  { name: 'Canaltech',           url: 'https://canaltech.com.br/rss/seguranca/',                lang: 'pt', weight: 2.0 },
-  { name: 'Minuto da Segurança', url: 'https://minutodaseguranca.blog.br/feed/',                lang: 'pt', weight: 1.6 }
+  { name: 'CISO Advisor',           url: 'https://www.cisoadvisor.com.br/feed/',          lang: 'pt', weight: 2.8 },
+  { name: 'The Hack',               url: 'https://thehack.com.br/feed/',                  lang: 'pt', weight: 2.4 },
+  { name: 'Canaltech',              url: 'https://canaltech.com.br/rss/seguranca/',       lang: 'pt', weight: 2.2 },
+  { name: 'Olhar Digital',          url: 'https://olhardigital.com.br/seguranca/feed/',   lang: 'pt', weight: 2.0 },
+  { name: 'Security Leaders',       url: 'https://securityleaders.com.br/feed/',          lang: 'pt', weight: 2.0 },
+  { name: 'Minuto da Segurança',    url: 'https://minutodaseguranca.blog.br/feed/',       lang: 'pt', weight: 1.8 },
+  { name: 'ESET WeLiveSecurity',    url: 'https://www.welivesecurity.com/pt/rss/feed/',   lang: 'pt', weight: 1.6 },
+  { name: 'Crypto ID',              url: 'https://cryptoid.com.br/feed/',                 lang: 'pt', weight: 1.4 },
+  { name: 'Tecnoblog',              url: 'https://tecnoblog.net/feed/',                   lang: 'pt', weight: 2.0, general: true },
+  { name: 'Tecmundo',               url: 'https://rss.tecmundo.com.br/feed',              lang: 'pt', weight: 2.0, general: true },
+  { name: 'Convergência Digital',   url: 'https://convergenciadigital.com.br/feed/',      lang: 'pt', weight: 1.8, general: true },
+  { name: 'IT Forum',               url: 'https://itforum.com.br/feed/',                  lang: 'pt', weight: 1.6, general: true },
+  { name: 'Baguete',                url: 'https://www.baguete.com.br/rss/noticias/feed',  lang: 'pt', weight: 1.4, general: true }
 ];
+
+// Filtro obrigatório para portais gerais (texto normalizado, sem acento, minúsculo).
+export const SECURITY = /ciberseg|seguranca (digital|da informacao|cibernetica)|hacker|ransomware|malware|spyware|trojan|backdoor|botnet|ddos|phishing|vazamento|vazad[oa]s?|dados expostos|vulnerabilidade|falha de seguranca|brecha|exploit|cve-\d|zero[- ]?day|dia zero|invasao|invasor|ataque cibernetico|golpe (digital|virtual|no pix|do pix|pelo whatsapp)|fraude (digital|online|bancaria)|senhas?\b|autenticacao|criptografia|lgpd|anpd|ciberataque|cibercrim/;
 
 // Palavras que indicam relevância (texto normalizado, sem acento, minúsculo).
 export const KEYWORDS = [
