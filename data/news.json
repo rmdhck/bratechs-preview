@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-21-18h",
+      "date": "2026-11-21",
+      "slot": "18h",
+      "publishedAt": "2026-11-21T20:44:28.023Z",
+      "items": [
+        {
+          "id": "ZW50YS1vLWNhc28v",
+          "title": "Hackers invadem sistemas do FBI; Trump comenta o caso",
+          "originalTitle": "Hackers invadem sistemas do FBI; Trump comenta o caso",
+          "summary": "Invasões atingiram banco de dados usado por forças policiais e sistema de pagamentos a agricultores. Donald Trump comentou o ataque ao FBI e mencionou antigas críticas à investigação sobre a Rússia O post Hackers invadem sistemas do FBI; Trump comenta o caso apareceu primeiro em Olhar Digital .",
+          "why": "Mudanças legais e ações policiais afetam obrigações e o cenário de ameaças das empresas.",
+          "category": "Regulação e justiça",
+          "severity": "critica",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://olhardigital.com.br/2026/11/21/seguranca/hackers-invadem-sistemas-do-fbi-trump-comenta-o-caso/",
+          "source": {
+            "name": "Olhar Digital",
+            "home": "https://olhardigital.com.br"
+          },
+          "publishedAt": "2026-11-21T19:11:18.000Z",
+          "alsoIn": [],
+          "score": 7.19
+        },
+        {
+          "id": "aWNhLW5vLWphdmEv",
+          "title": "IA ajudou a descobrir falha crítica no Java",
+          "originalTitle": "IA ajudou a descobrir falha crítica no Java",
+          "summary": "Brecha pode permitir invasões remotas em sistemas vulneráveis. Oracle já liberou uma correção. IA ajudou a descobrir falha crítica no Java",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://tecnoblog.net/noticias/ia-ajudou-a-descobrir-falha-critica-no-java/",
+          "source": {
+            "name": "Tecnoblog",
+            "home": "https://tecnoblog.net"
+          },
+          "publishedAt": "2026-11-19T18:10:00.000Z",
+          "alsoIn": [],
+          "score": 5.58
+        },
+        {
+          "id": "ZXJzZWd1cmFuY2Ev",
+          "title": "Ataques em escala global reforçam alerta sobre a autonomia da IA na cibersegurança",
+          "originalTitle": "Ataques em escala global reforçam alerta sobre a autonomia da IA na cibersegurança",
+          "summary": "A escalada recente de ataques cibernéticos que vem atingindo empresas, governos e infraestruturas críticas em diversas regiões do mundo evidencia uma transformação profunda no cenário de ameaças digitais. Com criminosos cada vez mais munidos de poder computacional, automação e recursos baseados em…",
+          "why": "Mudanças legais e ações policiais afetam obrigações e o cenário de ameaças das empresas.",
+          "category": "Regulação e justiça",
+          "severity": "critica",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://securityleaders.com.br/ataques-em-escala-global-reforcam-alerta-sobre-a-autonomia-da-ia-na-ciberseguranca/",
+          "source": {
+            "name": "Security Leaders",
+            "home": "https://securityleaders.com.br"
+          },
+          "publishedAt": "2026-11-17T20:48:17.000Z",
+          "alsoIn": [],
+          "score": 5.5
+        }
+      ]
+    },
+    {
       "id": "2026-11-21-12h",
       "date": "2026-11-21",
       "slot": "12h",
@@ -223,7 +288,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-21T16:31:31.859Z",
+  "updatedAt": "2026-11-21T20:44:28.023Z",
   "sources": [
     {
       "name": "CISO Advisor",
