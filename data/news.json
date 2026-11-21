@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-21-12h",
+      "date": "2026-11-21",
+      "slot": "12h",
+      "publishedAt": "2026-11-21T16:31:31.859Z",
+      "items": [
+        {
+          "id": "ZvaS1leHBvc3RvLw",
+          "title": "Banco do Brasil alerta sobre vazamento de dados; saiba o que foi exposto",
+          "originalTitle": "Banco do Brasil alerta sobre vazamento de dados; saiba o que foi exposto",
+          "summary": "Incidente ocorreu em 12 de novembro e envolveu dados cadastrais que podem ser utilizados por criminosos em tentativas de golpes O post Banco do Brasil alerta sobre vazamento de dados; saiba o que foi exposto apareceu primeiro em Olhar Digital .",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://olhardigital.com.br/2026/11/18/seguranca/banco-do-brasil-alerta-sobre-vazamento-de-dados-saiba-o-que-foi-exposto/",
+          "source": {
+            "name": "Olhar Digital",
+            "home": "https://olhardigital.com.br"
+          },
+          "publishedAt": "2026-11-18T21:11:19.000Z",
+          "alsoIn": [],
+          "score": 9.52
+        },
+        {
+          "id": "1maW5hbmNlaXJhLw",
+          "title": "Fraudes digitais e crime organizado ampliam pressão sobre a segurança financeira",
+          "originalTitle": "Fraudes digitais e crime organizado ampliam pressão sobre a segurança financeira",
+          "summary": "Durante a 16ª edição dos congressos de PLDFT e GRISC da Febraban, realizada hoje (18) em São Paulo, o diretor-presidente do Fórum Brasileiro de Segurança Pública, Renato Sérgio de Lima, destacou que o Brasil registrou 2,3 milhões de casos de estelionato no ano passado, quase todos relacionados a…",
+          "why": "Golpes por e-mail e mensagem continuam sendo a porta de entrada mais comum; treinamento e filtros fazem diferença.",
+          "category": "Phishing e golpes",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://securityleaders.com.br/fraudes-digitais-e-crime-organizado-ampliam-pressao-sobre-a-seguranca-financeira/",
+          "source": {
+            "name": "Security Leaders",
+            "home": "https://securityleaders.com.br"
+          },
+          "publishedAt": "2026-11-18T20:57:43.000Z",
+          "alsoIn": [],
+          "score": 6.52
+        },
+        {
+          "id": "LWRlLWNhcnRvZXMv",
+          "title": "Brasil concentra ataque que roubou dados de um milhão de cartões",
+          "originalTitle": "Brasil concentra ataque que roubou dados de um milhão de cartões",
+          "summary": "Criminosos infectaram 782 máquinas de pagamento em mais de 20 países usando uma falha antiga do Windows; 677 equipamentos comprometidos estavam no Brasil O post Brasil concentra ataque que roubou dados de um milhão de cartões apareceu primeiro em Olhar Digital .",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://olhardigital.com.br/2026/11/19/seguranca/brasil-concentra-ataque-que-roubou-dados-de-um-milhao-de-cartoes/",
+          "source": {
+            "name": "Olhar Digital",
+            "home": "https://olhardigital.com.br"
+          },
+          "publishedAt": "2026-11-19T19:10:31.000Z",
+          "alsoIn": [],
+          "score": 6.32
+        }
+      ]
+    },
+    {
       "id": "2026-11-20-18h",
       "date": "2026-11-20",
       "slot": "18h",
@@ -158,7 +223,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-21T01:55:48.929Z",
+  "updatedAt": "2026-11-21T16:31:31.859Z",
   "sources": [
     {
       "name": "CISO Advisor",
