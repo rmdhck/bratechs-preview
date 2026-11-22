@@ -1,6 +1,76 @@
 {
   "editions": [
     {
+      "id": "2026-11-22-12h",
+      "date": "2026-11-22",
+      "slot": "12h",
+      "publishedAt": "2026-11-22T16:49:14.380Z",
+      "items": [
+        {
+          "id": "zLW5vLWJyYXNpbC8",
+          "title": "ANPD nega recurso do Discord e mantém lives suspensas no Brasil",
+          "originalTitle": "ANPD nega recurso do Discord e mantém lives suspensas no Brasil",
+          "summary": "Conselho rejeitou por unanimidade o recurso da plataforma. Discord terá de comprovar mecanismos de proteção a crianças para retomar transmissões ao vivo. ANPD nega recurso do Discord e mantém lives suspensas no Brasil",
+          "why": "Acompanhar o cenário de ameaças ajuda a priorizar investimentos e respostas.",
+          "category": "Ameaças",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://tecnoblog.net/noticias/anpd-nega-recurso-do-discord-e-mantem-lives-suspensas-no-brasil/",
+          "source": {
+            "name": "Tecnoblog",
+            "home": "https://tecnoblog.net"
+          },
+          "publishedAt": "2026-11-19T14:06:28.000Z",
+          "alsoIn": [
+            {
+              "name": "IT Forum",
+              "link": "https://itforum.com.br/noticias/suspensao-lives-discord-brasil/"
+            }
+          ],
+          "score": 6.81
+        },
+        {
+          "id": "FvLXF1YW50aWNhLw",
+          "title": "IOSCO alerta que o setor financeiro sofre de procrastinação quântica",
+          "originalTitle": "IOSCO alerta que o setor financeiro sofre de procrastinação quântica",
+          "summary": "Veja como o Brasil se prepara e onde a ICP-Brasil entra no sistema de pagamentos. O post IOSCO alerta que o setor financeiro sofre de procrastinação quântica apareceu primeiro em CryptoID .",
+          "why": "Acompanhar o cenário de ameaças ajuda a priorizar investimentos e respostas.",
+          "category": "Ameaças",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://cryptoid.com.br/criptografia/iosco-alerta-que-o-setor-financeiro-sofre-de-procrastinacao-quantica/",
+          "source": {
+            "name": "Crypto ID",
+            "home": "https://cryptoid.com.br"
+          },
+          "publishedAt": "2026-11-21T18:19:23.000Z",
+          "alsoIn": [],
+          "score": 6.2
+        },
+        {
+          "id": "YXBvbnRhLWdhc2Ev",
+          "title": "Brasil divide o terceiro lugar em exposição diária a golpes entre 42 países, aponta GASA",
+          "originalTitle": "Brasil divide o terceiro lugar em exposição diária a golpes entre 42 países, aponta GASA",
+          "summary": "GASA aponta alta exposição a golpes: 75% dos adultos receberam tentativas de fraude no último ano, e o Brasil está entre os mais expostos. O post Brasil divide o terceiro lugar em exposição diária a golpes entre 42 países, aponta GASA apareceu primeiro em CryptoID .",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://cryptoid.com.br/ciberseguranca-seguranca-da-informacao/brasil-esta-entre-os-lideres-em-exposicao-a-golpes-aponta-gasa/",
+          "source": {
+            "name": "Crypto ID",
+            "home": "https://cryptoid.com.br"
+          },
+          "publishedAt": "2026-11-20T10:32:59.000Z",
+          "alsoIn": [],
+          "score": 5.96
+        }
+      ]
+    },
+    {
       "id": "2026-11-21-18h",
       "date": "2026-11-21",
       "slot": "18h",
@@ -288,7 +358,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-22T00:52:23.053Z",
+  "updatedAt": "2026-11-22T16:49:14.380Z",
   "sources": [
     {
       "name": "CISO Advisor",
