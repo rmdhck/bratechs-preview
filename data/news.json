@@ -4,7 +4,7 @@
       "id": "2026-11-21-18h",
       "date": "2026-11-21",
       "slot": "18h",
-      "publishedAt": "2026-11-21T20:44:28.023Z",
+      "publishedAt": "2026-11-22T00:52:23.053Z",
       "items": [
         {
           "id": "ZW50YS1vLWNhc28v",
@@ -23,7 +23,7 @@
           },
           "publishedAt": "2026-11-21T19:11:18.000Z",
           "alsoIn": [],
-          "score": 7.19
+          "score": 6.5
         },
         {
           "id": "aWNhLW5vLWphdmEv",
@@ -42,26 +42,26 @@
           },
           "publishedAt": "2026-11-19T18:10:00.000Z",
           "alsoIn": [],
-          "score": 5.58
+          "score": 5.56
         },
         {
-          "id": "ZXJzZWd1cmFuY2Ev",
-          "title": "Ataques em escala global reforçam alerta sobre a autonomia da IA na cibersegurança",
-          "originalTitle": "Ataques em escala global reforçam alerta sobre a autonomia da IA na cibersegurança",
-          "summary": "A escalada recente de ataques cibernéticos que vem atingindo empresas, governos e infraestruturas críticas em diversas regiões do mundo evidencia uma transformação profunda no cenário de ameaças digitais. Com criminosos cada vez mais munidos de poder computacional, automação e recursos baseados em…",
-          "why": "Mudanças legais e ações policiais afetam obrigações e o cenário de ameaças das empresas.",
-          "category": "Regulação e justiça",
-          "severity": "critica",
+          "id": "Z2FsLWRvLWpvZ28v",
+          "title": "GTA 6 pirata? Hacker Cyberleek está de volta com build ilegal do jogo",
+          "originalTitle": "GTA 6 pirata? Hacker Cyberleek está de volta com build ilegal do jogo",
+          "summary": "Um dos maiores vazamentos envolvendo GTA 6 ganhou um novo capítulo justamente após o lançamento do jogo. O hacker conhecido como Cyberleek voltou à ativa em 19 de novembro e afirma ter disponibilizado na internet uma versão de desenvolvimento do título para Xbox, com aproximadamente 209 GB. Segundo…",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
           "lang": "pt",
           "ai": false,
-          "link": "https://securityleaders.com.br/ataques-em-escala-global-reforcam-alerta-sobre-a-autonomia-da-ia-na-ciberseguranca/",
+          "link": "https://www.estadao.com.br/tecmundo/voxel/gta-6-pirata-hacker-cyberleek-esta-de-volta-com-build-ilegal-do-jogo/",
           "source": {
-            "name": "Security Leaders",
-            "home": "https://securityleaders.com.br"
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
           },
-          "publishedAt": "2026-11-17T20:48:17.000Z",
+          "publishedAt": "2026-11-20T14:14:00.000Z",
           "alsoIn": [],
-          "score": 5.5
+          "score": 5.25
         }
       ]
     },
@@ -288,7 +288,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-21T20:44:28.023Z",
+  "updatedAt": "2026-11-22T00:52:23.053Z",
   "sources": [
     {
       "name": "CISO Advisor",
