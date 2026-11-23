@@ -4,7 +4,7 @@
       "id": "2026-11-22-18h",
       "date": "2026-11-22",
       "slot": "18h",
-      "publishedAt": "2026-11-22T20:54:45.292Z",
+      "publishedAt": "2026-11-23T01:21:20.499Z",
       "items": [
         {
           "id": "LWUtanBtb3JnYW4v",
@@ -28,7 +28,7 @@
               "link": "https://olhardigital.com.br/2026/11/19/seguranca/hackers-expoem-dados-de-clientes-de-visa-mastercard-e-jpmorgan/"
             }
           ],
-          "score": 5.04
+          "score": 5.03
         },
         {
           "id": "kZS1jbGllbnRlcy8",
@@ -47,7 +47,7 @@
           },
           "publishedAt": "2026-11-19T19:19:10.000Z",
           "alsoIn": [],
-          "score": 5.02
+          "score": 5.01
         },
         {
           "id": "tc2Vydmlkb3Jlcy8",
@@ -66,7 +66,7 @@
           },
           "publishedAt": "2026-11-20T13:30:00.000Z",
           "alsoIn": [],
-          "score": 4.56
+          "score": 4.54
         }
       ]
     },
@@ -428,7 +428,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-22T20:54:45.292Z",
+  "updatedAt": "2026-11-23T01:21:20.499Z",
   "sources": [
     {
       "name": "CISO Advisor",
