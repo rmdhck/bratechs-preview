@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-24-18h",
+      "date": "2026-11-24",
+      "slot": "18h",
+      "publishedAt": "2026-11-24T19:49:57.084Z",
+      "items": [
+        {
+          "id": "dzLWUtb3JhY2xlLw",
+          "title": "Redbelt Security alerta para falhas críticas em PHP, Windows e Oracle",
+          "originalTitle": "Redbelt Security alerta para falhas críticas em PHP, Windows e Oracle",
+          "summary": "A Redbelt Security, consultoria brasileira especializada em segurança da informação, identificou em outubro falhas críticas em tecnologias amplamente utilizadas por grandes empresas, como PHP, Windows, Exchange, Oracle E-Business Suite, gateways da Cisco e a plataforma Adobe Commerce. O principal…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://securityleaders.com.br/redbelt-security-alerta-para-falhas-criticas-em-php-windows-e-oracle/",
+          "source": {
+            "name": "Security Leaders",
+            "home": "https://securityleaders.com.br"
+          },
+          "publishedAt": "2026-11-24T18:44:08.000Z",
+          "alsoIn": [],
+          "score": 11.47
+        },
+        {
+          "id": "MtcGhwMnNoZWxsLw",
+          "title": "Compreender melhor as vulnerabilidades do PHP2Shell reduz o risco na correção",
+          "originalTitle": "Compreender melhor as vulnerabilidades do PHP2Shell reduz o risco na correção",
+          "summary": "Duas vulnerabilidades críticas no PHP, recentemente divulgadas, representam um risco urgente à segurança e à continuidade dos negócios para organizações que dependem de sites, portais de clientes e outras aplicações web. Em números globais, algo em torno de 70% da internet utiliza aplicações com…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://itforum.com.br/artigos/compreender-vulnerabilidades-php2shell/",
+          "source": {
+            "name": "IT Forum",
+            "home": "https://itforum.com.br"
+          },
+          "publishedAt": "2026-11-23T20:49:03.000Z",
+          "alsoIn": [],
+          "score": 9.88
+        },
+        {
+          "id": "yc2FvLXBpcmF0YS8",
+          "title": "GTA 6 começa a rodar no PC, mas Rockstar luta para evitar versão pirata",
+          "originalTitle": "GTA 6 começa a rodar no PC, mas Rockstar luta para evitar versão pirata",
+          "summary": "As últimas 24 horas foram movimentadas para a comunidade de modders que tenta fazer GTA 6 funcionar no PC. Depois de o vazador CyberLeek disponibilizar o executável da versão de Xbox nas redes sociais , diferentes grupos começaram a trabalhar em uma adaptação para os computadores. O objetivo era…",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/voxel/gta-6-comeca-a-rodar-no-pc-mas-rockstar-luta-para-evitar-versao-pirata/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-24T17:54:00.000Z",
+          "alsoIn": [],
+          "score": 9.41
+        }
+      ]
+    },
+    {
       "id": "2026-11-24-06h",
       "date": "2026-11-24",
       "slot": "06h",
@@ -558,7 +623,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-24T05:06:37.454Z",
+  "updatedAt": "2026-11-24T19:49:57.084Z",
   "sources": [
     {
       "name": "CISO Advisor",
