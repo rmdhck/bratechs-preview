@@ -4,46 +4,8 @@
       "id": "2026-11-24-18h",
       "date": "2026-11-24",
       "slot": "18h",
-      "publishedAt": "2026-11-24T19:49:57.084Z",
+      "publishedAt": "2026-11-24T23:44:06.814Z",
       "items": [
-        {
-          "id": "dzLWUtb3JhY2xlLw",
-          "title": "Redbelt Security alerta para falhas críticas em PHP, Windows e Oracle",
-          "originalTitle": "Redbelt Security alerta para falhas críticas em PHP, Windows e Oracle",
-          "summary": "A Redbelt Security, consultoria brasileira especializada em segurança da informação, identificou em outubro falhas críticas em tecnologias amplamente utilizadas por grandes empresas, como PHP, Windows, Exchange, Oracle E-Business Suite, gateways da Cisco e a plataforma Adobe Commerce. O principal…",
-          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
-          "category": "Vulnerabilidade",
-          "severity": "critica",
-          "lang": "pt",
-          "ai": false,
-          "link": "https://securityleaders.com.br/redbelt-security-alerta-para-falhas-criticas-em-php-windows-e-oracle/",
-          "source": {
-            "name": "Security Leaders",
-            "home": "https://securityleaders.com.br"
-          },
-          "publishedAt": "2026-11-24T18:44:08.000Z",
-          "alsoIn": [],
-          "score": 11.47
-        },
-        {
-          "id": "MtcGhwMnNoZWxsLw",
-          "title": "Compreender melhor as vulnerabilidades do PHP2Shell reduz o risco na correção",
-          "originalTitle": "Compreender melhor as vulnerabilidades do PHP2Shell reduz o risco na correção",
-          "summary": "Duas vulnerabilidades críticas no PHP, recentemente divulgadas, representam um risco urgente à segurança e à continuidade dos negócios para organizações que dependem de sites, portais de clientes e outras aplicações web. Em números globais, algo em torno de 70% da internet utiliza aplicações com…",
-          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
-          "category": "Vulnerabilidade",
-          "severity": "critica",
-          "lang": "pt",
-          "ai": false,
-          "link": "https://itforum.com.br/artigos/compreender-vulnerabilidades-php2shell/",
-          "source": {
-            "name": "IT Forum",
-            "home": "https://itforum.com.br"
-          },
-          "publishedAt": "2026-11-23T20:49:03.000Z",
-          "alsoIn": [],
-          "score": 9.88
-        },
         {
           "id": "yc2FvLXBpcmF0YS8",
           "title": "GTA 6 começa a rodar no PC, mas Rockstar luta para evitar versão pirata",
@@ -61,7 +23,45 @@
           },
           "publishedAt": "2026-11-24T17:54:00.000Z",
           "alsoIn": [],
-          "score": 9.41
+          "score": 8.78
+        },
+        {
+          "id": "VjaWZpY2Fjb2VzLw",
+          "title": "Motorola lança Edge 70 Neo com bateria de 7.000 mAh; confira especificações",
+          "originalTitle": "Motorola lança Edge 70 Neo com bateria de 7.000 mAh; confira especificações",
+          "summary": "Após diversos rumores e vazamentos, a Motorola enfim anunciou a chegada do Motorola Edge 70 Neo , seu novo smartphone intermediário da série 70. O modelo traz um conjunto de especificações até bem competente, como uma câmera primária de 50 megapixels e uma bateria de 7.000 mAh. O grande destaque…",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/produto-e-review/motorola-lanca-edge-70-neo-com-bateria-de-7000-mah-confira-especificacoes/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-24T17:00:00.000Z",
+          "alsoIn": [],
+          "score": 8.05
+        },
+        {
+          "id": "RlLXNldGVtYnJvLw",
+          "title": "CVE-2026-123890: falha no VMware vCenter foi explorada desde setembro",
+          "originalTitle": "CVE-2026-123890: falha no VMware vCenter foi explorada desde setembro",
+          "summary": "Ilustração conceitual do caminho entre a falha de autenticação no serviço de diretório e o acesso ao plano de controle da virtualização. A Broadcom corrigiu a CVE-2026-123890 em 19 de novembro, mais de dois meses [...] The post CVE-2026-123890: falha no VMware vCenter foi explorada desde setembro…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://minutodaseguranca.blog.br/vmware-vcenter-cve-2026-123890-exploracao-desde-setembro/",
+          "source": {
+            "name": "Minuto da Segurança",
+            "home": "https://minutodaseguranca.blog.br"
+          },
+          "publishedAt": "2026-11-24T14:04:34.000Z",
+          "alsoIn": [],
+          "score": 6.5
         }
       ]
     },
@@ -623,7 +623,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-24T19:49:57.084Z",
+  "updatedAt": "2026-11-24T23:44:06.814Z",
   "sources": [
     {
       "name": "CISO Advisor",
