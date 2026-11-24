@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-24-06h",
+      "date": "2026-11-24",
+      "slot": "06h",
+      "publishedAt": "2026-11-24T05:06:37.454Z",
+      "items": [
+        {
+          "id": "ydXBvLWhhY2tlci8",
+          "title": "Nvidia investiga possível vazamento de dados após ameaça de grupo hacker",
+          "originalTitle": "Nvidia investiga possível vazamento de dados após ameaça de grupo hacker",
+          "summary": "Ainda não há informações públicas sobre a natureza dos arquivos supostamente obtidos pelos criminosos, nem sobre a quantidade de dados envolvida O post Nvidia investiga possível vazamento de dados após ameaça de grupo hacker apareceu primeiro em Olhar Digital .",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://olhardigital.com.br/2026/11/23/seguranca/nvidia-investiga-possivel-vazamento-de-dados-apos-ameaca-de-grupo-hacker/",
+          "source": {
+            "name": "Olhar Digital",
+            "home": "https://olhardigital.com.br"
+          },
+          "publishedAt": "2026-11-23T20:25:06.000Z",
+          "alsoIn": [],
+          "score": 6.61
+        },
+        {
+          "id": "Z29yaWEtbGlkZXIv",
+          "title": "Prêmio Security Leaders anuncia finalistas da categoria Líder",
+          "originalTitle": "Prêmio Security Leaders anuncia finalistas da categoria Líder",
+          "summary": "O Security Leaders divulga os finalistas da edição 2026 do Prêmio Líder, reconhecimento que há 17 anos valoriza os profissionais que impulsionam a evolução da cibersegurança nas organizações brasileiras. Após a etapa de indicações realizada pela própria comunidade de líderes do setor, os nomes mais…",
+          "why": "Mudanças legais e ações policiais afetam obrigações e o cenário de ameaças das empresas.",
+          "category": "Regulação e justiça",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://securityleaders.com.br/premio-security-leaders-anuncia-finalistas-da-categoria-lider/",
+          "source": {
+            "name": "Security Leaders",
+            "home": "https://securityleaders.com.br"
+          },
+          "publishedAt": "2026-11-23T19:28:28.000Z",
+          "alsoIn": [],
+          "score": 6.51
+        },
+        {
+          "id": "wb3ItMTEtYW5vcy8",
+          "title": "NoisyTCP: falha no kernel do Linux ficou escondida por 11 anos",
+          "originalTitle": "NoisyTCP: falha no kernel do Linux ficou escondida por 11 anos",
+          "summary": "Uma falha de segurança presente há 11 anos no kernel do Linux , conhecida como NoisyTCP, permite que invasores derrubem remotamente servidores que rodam softwares populares, como Nginx, Apache e SSH. A descoberta foi divulgada pelo pesquisador de segurança Hyunwoo Kim, após o fim de um período de…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/noisytcp-falha-no-kernel-do-linux-ficou-escondida-por-11-anos/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-23T16:00:00.000Z",
+          "alsoIn": [],
+          "score": 6.38
+        }
+      ]
+    },
+    {
       "id": "2026-11-23-18h",
       "date": "2026-11-23",
       "slot": "18h",
@@ -493,7 +558,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-24T01:58:54.306Z",
+  "updatedAt": "2026-11-24T05:06:37.454Z",
   "sources": [
     {
       "name": "CISO Advisor",
