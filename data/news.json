@@ -4,8 +4,27 @@
       "id": "2026-11-23-18h",
       "date": "2026-11-23",
       "slot": "18h",
-      "publishedAt": "2026-11-23T20:45:23.864Z",
+      "publishedAt": "2026-11-24T01:58:54.306Z",
       "items": [
+        {
+          "id": "ZWwtZGUtZ3RhLTYv",
+          "title": "Hacker vaza suposto arquivo executável de GTA 6",
+          "originalTitle": "Hacker vaza suposto arquivo executável de GTA 6",
+          "summary": "Cyberleek, grupo hacker responsável pela série de vazamentos de Grand Theft Auto VI (GTA 6), disponibilizou o arquivo executável do jogo nesta segunda-feira (23). Chamando de “presente antecipado de Natal”, os cibercriminosos alegam que o binário refere-se à versão de Xbox do novo jogo da Rockstar…",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/hacker-vaza-suposto-arquivo-executavel-de-gta-6/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-23T21:30:00.000Z",
+          "alsoIn": [],
+          "score": 8.38
+        },
         {
           "id": "tZGFkb3MtZS1pYS8",
           "title": "ANPD lança programa para intercâmbio de estudantes para desafios de proteção de dados e IA",
@@ -23,45 +42,26 @@
           },
           "publishedAt": "2026-11-23T16:09:08.000Z",
           "alsoIn": [],
-          "score": 8.16
+          "score": 7.49
         },
         {
-          "id": "Z29yaWEtbGlkZXIv",
-          "title": "Prêmio Security Leaders anuncia finalistas da categoria Líder",
-          "originalTitle": "Prêmio Security Leaders anuncia finalistas da categoria Líder",
-          "summary": "O Security Leaders divulga os finalistas da edição 2026 do Prêmio Líder, reconhecimento que há 17 anos valoriza os profissionais que impulsionam a evolução da cibersegurança nas organizações brasileiras. Após a etapa de indicações realizada pela própria comunidade de líderes do setor, os nomes mais…",
-          "why": "Mudanças legais e ações policiais afetam obrigações e o cenário de ameaças das empresas.",
-          "category": "Regulação e justiça",
-          "severity": "media",
-          "lang": "pt",
-          "ai": false,
-          "link": "https://securityleaders.com.br/premio-security-leaders-anuncia-finalistas-da-categoria-lider/",
-          "source": {
-            "name": "Security Leaders",
-            "home": "https://securityleaders.com.br"
-          },
-          "publishedAt": "2026-11-23T19:28:28.000Z",
-          "alsoIn": [],
-          "score": 7.74
-        },
-        {
-          "id": "wb3ItMTEtYW5vcy8",
-          "title": "NoisyTCP: falha no kernel do Linux ficou escondida por 11 anos",
-          "originalTitle": "NoisyTCP: falha no kernel do Linux ficou escondida por 11 anos",
-          "summary": "Uma falha de segurança presente há 11 anos no kernel do Linux , conhecida como NoisyTCP, permite que invasores derrubem remotamente servidores que rodam softwares populares, como Nginx, Apache e SSH. A descoberta foi divulgada pelo pesquisador de segurança Hyunwoo Kim, após o fim de um período de…",
+          "id": "b3JkZS1lLW1haXMv",
+          "title": "Hoje no TecMundo (23): Jensen Huang voltou para a Nvidia, GTA 6 bate recorde e mais",
+          "originalTitle": "Hoje no TecMundo (23): Jensen Huang voltou para a Nvidia, GTA 6 bate recorde e mais",
+          "summary": "O Hoje no TecMundo desta segunda-feira (23) chega com uma reviravolta na Nvidia e novidades para quem acompanha o universo dos games e dos smartphones! Jensen Huang está de volta ao comando da fabricante de chips, apenas 12 dias depois de sua renúncia. A decisão foi aprovada por unanimidade pelo…",
           "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
           "category": "Vulnerabilidade",
-          "severity": "media",
+          "severity": "critica",
           "lang": "pt",
           "ai": false,
-          "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/noisytcp-falha-no-kernel-do-linux-ficou-escondida-por-11-anos/",
+          "link": "https://www.estadao.com.br/tecmundo/big-techs/hoje-no-tecmundo-23-jensen-huang-volta-a-nvidia-gta-6-bate-recorde-e-mais/",
           "source": {
             "name": "Tecmundo",
             "home": "https://www.estadao.com.br"
           },
-          "publishedAt": "2026-11-23T16:00:00.000Z",
+          "publishedAt": "2026-11-24T00:00:00.000Z",
           "alsoIn": [],
-          "score": 7.34
+          "score": 7.1
         }
       ]
     },
@@ -493,7 +493,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-23T20:45:23.864Z",
+  "updatedAt": "2026-11-24T01:58:54.306Z",
   "sources": [
     {
       "name": "CISO Advisor",
