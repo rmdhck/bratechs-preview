@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-25-18h",
+      "date": "2026-11-25",
+      "slot": "18h",
+      "publishedAt": "2026-11-25T18:55:06.078Z",
+      "items": [
+        {
+          "id": "aXMtYXRpbmdpZG8v",
+          "title": "Dados de 1 milhão de cartões de crédito são expostos; Brasil é o mais atingido",
+          "originalTitle": "Dados de 1 milhão de cartões de crédito são expostos; Brasil é o mais atingido",
+          "summary": "Dados de pelo menos um milhão de cartões de crédito e débito foram encontrados expostos em um servidor usado por cibercriminosos — a maioria deles, brasileiros. A base de dados continha informações roubadas durante um ataque cibernético que atingiu mais de 700 terminais de ponto de venda (POS, na…",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/dados-de-1-milhao-de-cartoes-de-credito-sao-expostos-brasil-e-o-mais-atingido/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-25T15:00:00.000Z",
+          "alsoIn": [],
+          "score": 8.47
+        },
+        {
+          "id": "IwMjYtMTMyMTY1Lw",
+          "title": "Drupal corrige falha crítica já explorada em ataques contra sites",
+          "originalTitle": "Drupal corrige falha crítica já explorada em ataques contra sites",
+          "summary": "Falha crítica no instalador do Drupal já foi explorada em sites reais. Entenda a CVE-2026-132165, as versões corrigidas e os cuidados para empresas. [...] The post Drupal corrige falha crítica já explorada em ataques contra sites appeared first on Minuto da Segurança da Informação .",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://minutodaseguranca.blog.br/drupal-falha-critica-instalador-cve-2026-132165/",
+          "source": {
+            "name": "Minuto da Segurança",
+            "home": "https://minutodaseguranca.blog.br"
+          },
+          "publishedAt": "2026-11-25T06:10:00.000Z",
+          "alsoIn": [],
+          "score": 7.51
+        },
+        {
+          "id": "Fpcy1ub3MtZXVhLw",
+          "title": "Huawei é declarada culpada por roubo de segredos industriais nos EUA",
+          "originalTitle": "Huawei é declarada culpada por roubo de segredos industriais nos EUA",
+          "summary": "A fabricante Huawei foi considerada culpada de múltiplas acusações de roubo de tecnologia e espionagem contra os Estados Unidos. O veredito do processo encarado pela marca chinesa foi divulgado nesta terça-feira (24). O tribunal federal que julgava o caso oficializou a decisão, que encerra um…",
+          "why": "Golpes por e-mail e mensagem continuam sendo a porta de entrada mais comum; treinamento e filtros fazem diferença.",
+          "category": "Phishing e golpes",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/big-techs/huawei-e-declarada-culpada-por-roubo-de-segredos-industriais-nos-eua/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-25T12:14:00.000Z",
+          "alsoIn": [],
+          "score": 7.16
+        }
+      ]
+    },
+    {
       "id": "2026-11-25-06h",
       "date": "2026-11-25",
       "slot": "06h",
@@ -688,7 +753,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-25T03:54:55.030Z",
+  "updatedAt": "2026-11-25T18:55:06.078Z",
   "sources": [
     {
       "name": "CISO Advisor",
