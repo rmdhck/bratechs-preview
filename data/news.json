@@ -4,8 +4,46 @@
       "id": "2026-11-25-18h",
       "date": "2026-11-25",
       "slot": "18h",
-      "publishedAt": "2026-11-25T18:55:06.078Z",
+      "publishedAt": "2026-11-25T23:27:22.330Z",
       "items": [
+        {
+          "id": "LXJhbnNvbXdhcmUv",
+          "title": "Brasil assume 4ª posição global em ranking de ataques de ransomware",
+          "originalTitle": "Brasil assume 4ª posição global em ranking de ataques de ransomware",
+          "summary": "O Brasil registrou 32 vítimas corporativas de ransomware em outubro e assumiu a quarta posição no ranking global de países mais visados. Os dados, que integram o levantamento mensal da plataforma Ransomware.live divulgado pela Cohesity, confirmam o quinto mês consecutivo de alta no cenário nacional.…",
+          "why": "Ransomware segue como a principal causa de paralisação de operações; backups testados e EDR ativo reduzem o impacto.",
+          "category": "Ransomware",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://securityleaders.com.br/brasil-assume-4a-posicao-global-em-ranking-de-ataques-de-ransomware/",
+          "source": {
+            "name": "Security Leaders",
+            "home": "https://securityleaders.com.br"
+          },
+          "publishedAt": "2026-11-25T18:00:45.000Z",
+          "alsoIn": [],
+          "score": 10.03
+        },
+        {
+          "id": "LWRlLWNvZGlnb3Mv",
+          "title": "Falha em recurso do Claude permitia execução remota de códigos",
+          "originalTitle": "Falha em recurso do Claude permitia execução remota de códigos",
+          "summary": "Uma vulnerabilidade no recurso Dispatch, no Claude (Anthropic), permitia que extensões de navegador maliciosas executassem códigos discretamente no sistema operacional dos usuários. A descoberta foi revelada em relatório técnico divulgado pela Forever Security, empresa especializada em segurança de…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/falha-em-recurso-do-claude-permitia-execucao-remota-de-codigos/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-25T22:45:00.000Z",
+          "alsoIn": [],
+          "score": 8.05
+        },
         {
           "id": "aXMtYXRpbmdpZG8v",
           "title": "Dados de 1 milhão de cartões de crédito são expostos; Brasil é o mais atingido",
@@ -23,45 +61,7 @@
           },
           "publishedAt": "2026-11-25T15:00:00.000Z",
           "alsoIn": [],
-          "score": 8.47
-        },
-        {
-          "id": "IwMjYtMTMyMTY1Lw",
-          "title": "Drupal corrige falha crítica já explorada em ataques contra sites",
-          "originalTitle": "Drupal corrige falha crítica já explorada em ataques contra sites",
-          "summary": "Falha crítica no instalador do Drupal já foi explorada em sites reais. Entenda a CVE-2026-132165, as versões corrigidas e os cuidados para empresas. [...] The post Drupal corrige falha crítica já explorada em ataques contra sites appeared first on Minuto da Segurança da Informação .",
-          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
-          "category": "Vulnerabilidade",
-          "severity": "critica",
-          "lang": "pt",
-          "ai": false,
-          "link": "https://minutodaseguranca.blog.br/drupal-falha-critica-instalador-cve-2026-132165/",
-          "source": {
-            "name": "Minuto da Segurança",
-            "home": "https://minutodaseguranca.blog.br"
-          },
-          "publishedAt": "2026-11-25T06:10:00.000Z",
-          "alsoIn": [],
-          "score": 7.51
-        },
-        {
-          "id": "Fpcy1ub3MtZXVhLw",
-          "title": "Huawei é declarada culpada por roubo de segredos industriais nos EUA",
-          "originalTitle": "Huawei é declarada culpada por roubo de segredos industriais nos EUA",
-          "summary": "A fabricante Huawei foi considerada culpada de múltiplas acusações de roubo de tecnologia e espionagem contra os Estados Unidos. O veredito do processo encarado pela marca chinesa foi divulgado nesta terça-feira (24). O tribunal federal que julgava o caso oficializou a decisão, que encerra um…",
-          "why": "Golpes por e-mail e mensagem continuam sendo a porta de entrada mais comum; treinamento e filtros fazem diferença.",
-          "category": "Phishing e golpes",
-          "severity": "media",
-          "lang": "pt",
-          "ai": false,
-          "link": "https://www.estadao.com.br/tecmundo/big-techs/huawei-e-declarada-culpada-por-roubo-de-segredos-industriais-nos-eua/",
-          "source": {
-            "name": "Tecmundo",
-            "home": "https://www.estadao.com.br"
-          },
-          "publishedAt": "2026-11-25T12:14:00.000Z",
-          "alsoIn": [],
-          "score": 7.16
+          "score": 7.84
         }
       ]
     },
@@ -753,7 +753,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-25T18:55:06.078Z",
+  "updatedAt": "2026-11-25T23:27:22.330Z",
   "sources": [
     {
       "name": "CISO Advisor",
