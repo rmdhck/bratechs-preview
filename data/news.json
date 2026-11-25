@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-25-06h",
+      "date": "2026-11-25",
+      "slot": "06h",
+      "publishedAt": "2026-11-25T03:54:55.030Z",
+      "items": [
+        {
+          "id": "dzLWUtb3JhY2xlLw",
+          "title": "Redbelt Security alerta para falhas críticas em PHP, Windows e Oracle",
+          "originalTitle": "Redbelt Security alerta para falhas críticas em PHP, Windows e Oracle",
+          "summary": "A Redbelt Security, consultoria brasileira especializada em segurança da informação, identificou em outubro falhas críticas em tecnologias amplamente utilizadas por grandes empresas, como PHP, Windows, Exchange, Oracle E-Business Suite, gateways da Cisco e a plataforma Adobe Commerce. O principal…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "critica",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://securityleaders.com.br/redbelt-security-alerta-para-falhas-criticas-em-php-windows-e-oracle/",
+          "source": {
+            "name": "Security Leaders",
+            "home": "https://securityleaders.com.br"
+          },
+          "publishedAt": "2026-11-24T18:44:08.000Z",
+          "alsoIn": [],
+          "score": 10.26
+        },
+        {
+          "id": "vbnRhLW5vcnRvbi8",
+          "title": "Golpes em compras online atingem 24% dos brasileiros nas festas de fim de ano, aponta Norton",
+          "originalTitle": "Golpes em compras online atingem 24% dos brasileiros nas festas de fim de ano, aponta Norton",
+          "summary": "De acordo com o 2026 Norton Insights Report: Holiday Scams, 60% dos consumidores brasileiros estão mais preocupados com golpes online nesta temporada de festas do que no ano passado. O receio reflete o cenário de risco: 33% dos entrevistados relatam ter sido alvos de fraudes no período, e 73% dessas…",
+          "why": "Golpes por e-mail e mensagem continuam sendo a porta de entrada mais comum; treinamento e filtros fazem diferença.",
+          "category": "Phishing e golpes",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://securityleaders.com.br/golpes-em-compras-online-atingem-24-dos-brasileiros-nas-festas-de-fim-de-ano-aponta-norton/",
+          "source": {
+            "name": "Security Leaders",
+            "home": "https://securityleaders.com.br"
+          },
+          "publishedAt": "2026-11-24T18:37:49.000Z",
+          "alsoIn": [],
+          "score": 8.05
+        },
+        {
+          "id": "5hLWludGVybmV0Lw",
+          "title": "Vazamento expõe 3,5 bilhões de dados em dois bancos na internet",
+          "originalTitle": "Vazamento expõe 3,5 bilhões de dados em dois bancos na internet",
+          "summary": "Uma base ligada à China reunia 1,64 bilhão de documentos; outra armazenava credenciais, cookies e dados capazes de traçar perfis digitais O post Vazamento expõe 3,5 bilhões de dados em dois bancos na internet apareceu primeiro em Olhar Digital .",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://olhardigital.com.br/2026/11/24/seguranca/vazamento-expoe-35-bilhoes-de-dados-em-dois-bancos-na-internet/",
+          "source": {
+            "name": "Olhar Digital",
+            "home": "https://olhardigital.com.br"
+          },
+          "publishedAt": "2026-11-24T16:22:21.000Z",
+          "alsoIn": [],
+          "score": 6.32
+        }
+      ]
+    },
+    {
       "id": "2026-11-24-18h",
       "date": "2026-11-24",
       "slot": "18h",
@@ -623,7 +688,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-24T23:44:06.814Z",
+  "updatedAt": "2026-11-25T03:54:55.030Z",
   "sources": [
     {
       "name": "CISO Advisor",
