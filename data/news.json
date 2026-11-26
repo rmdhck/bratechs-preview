@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-26-06h",
+      "date": "2026-11-26",
+      "slot": "06h",
+      "publishedAt": "2026-11-26T03:20:58.093Z",
+      "items": [
+        {
+          "id": "Fpcy1ub3MtZXVhLw",
+          "title": "Huawei é declarada culpada por roubo de segredos industriais nos EUA",
+          "originalTitle": "Huawei é declarada culpada por roubo de segredos industriais nos EUA",
+          "summary": "A fabricante Huawei foi considerada culpada de múltiplas acusações de roubo de tecnologia e espionagem contra os Estados Unidos. O veredito do processo encarado pela marca chinesa foi divulgado nesta terça-feira (24). O tribunal federal que julgava o caso oficializou a decisão, que encerra um…",
+          "why": "Golpes por e-mail e mensagem continuam sendo a porta de entrada mais comum; treinamento e filtros fazem diferença.",
+          "category": "Phishing e golpes",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/big-techs/huawei-e-declarada-culpada-por-roubo-de-segredos-industriais-nos-eua/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-25T12:14:00.000Z",
+          "alsoIn": [],
+          "score": 6.32
+        },
+        {
+          "id": "5kby1lbS0yMDI2Lw",
+          "title": "123456 é a senha mais usada no Brasil e no mundo em 2026",
+          "originalTitle": "123456 é a senha mais usada no Brasil e no mundo em 2026",
+          "summary": "“admin” também aparece nos rankings brasileiro e mundial. Flamengo, São Paulo e combinações numéricas também estão entre as senhas populares O post 123456 é a senha mais usada no Brasil e no mundo em 2026 apareceu primeiro em Olhar Digital .",
+          "why": "Mudanças legais e ações policiais afetam obrigações e o cenário de ameaças das empresas.",
+          "category": "Regulação e justiça",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://olhardigital.com.br/2026/11/23/seguranca/123456-e-a-senha-mais-usada-no-brasil-e-no-mundo-em-2026/",
+          "source": {
+            "name": "Olhar Digital",
+            "home": "https://olhardigital.com.br"
+          },
+          "publishedAt": "2026-11-23T16:32:28.000Z",
+          "alsoIn": [],
+          "score": 5.04
+        },
+        {
+          "id": "tY29tZXJjaWFpcy8",
+          "title": "Justiça dos EUA condena Huawei por roubo de segredos comerciais",
+          "originalTitle": "Justiça dos EUA condena Huawei por roubo de segredos comerciais",
+          "summary": "Empresa e três subsidiárias também foram consideradas culpadas por fraude bancária, lavagem de dinheiro e violações de sanções contra o Irã. Justiça dos EUA condena Huawei por roubo de segredos comerciais",
+          "why": "Golpes por e-mail e mensagem continuam sendo a porta de entrada mais comum; treinamento e filtros fazem diferença.",
+          "category": "Phishing e golpes",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://tecnoblog.net/noticias/justica-dos-eua-condena-huawei-por-roubo-de-segredos-comerciais/",
+          "source": {
+            "name": "Tecnoblog",
+            "home": "https://tecnoblog.net"
+          },
+          "publishedAt": "2026-11-25T14:13:01.000Z",
+          "alsoIn": [],
+          "score": 4.67
+        }
+      ]
+    },
+    {
       "id": "2026-11-25-18h",
       "date": "2026-11-25",
       "slot": "18h",
@@ -753,7 +818,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-25T23:27:22.330Z",
+  "updatedAt": "2026-11-26T03:20:58.093Z",
   "sources": [
     {
       "name": "CISO Advisor",
