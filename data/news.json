@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-26-18h",
+      "date": "2026-11-26",
+      "slot": "18h",
+      "publishedAt": "2026-11-26T18:44:31.173Z",
+      "items": [
+        {
+          "id": "RpZ2FjYW8tZXVhLw",
+          "title": "EUA investigam ataques a navios com falhas em FortiGate",
+          "originalTitle": "EUA investigam ataques a navios com falhas em FortiGate",
+          "summary": "Reportagens baseadas em fontes oficiais dizem que até 50 embarcações podem ter sido comprometidas; autoridades confirmaram investigações em dois navios, sem relatar interrupção operacional, perigo à tripulação ou dano ambiental. O alcance dos acessos e a autoria permanecem sob apuração. [...] The…",
+          "why": "Falhas exploráveis exigem atualização rápida; vale revisar se o sistema afetado existe no seu ambiente.",
+          "category": "Vulnerabilidade",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://minutodaseguranca.blog.br/ataques-navios-fortigate-investigacao-eua/",
+          "source": {
+            "name": "Minuto da Segurança",
+            "home": "https://minutodaseguranca.blog.br"
+          },
+          "publishedAt": "2026-11-26T11:57:59.000Z",
+          "alsoIn": [],
+          "score": 7.35
+        },
+        {
+          "id": "0by1kZS1kYWRvcy8",
+          "title": "1Password sofre invasão e alerta clientes sobre vazamento de dados",
+          "originalTitle": "1Password sofre invasão e alerta clientes sobre vazamento de dados",
+          "summary": "A 1Password sofreu uma invasão após hackers comprometerem a conta corporativa de um funcionário no GitHub. 1Password sofre invasão e alerta clientes sobre vazamento de dados",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://tecnoblog.net/noticias/1password-sofre-invasao-e-alerta-clientes-sobre-vazamento-de-dados/",
+          "source": {
+            "name": "Tecnoblog",
+            "home": "https://tecnoblog.net"
+          },
+          "publishedAt": "2026-11-26T13:49:54.000Z",
+          "alsoIn": [],
+          "score": 7.11
+        },
+        {
+          "id": "1lc21vLXRlbXBvLw",
+          "title": "IAs permitem que cibercriminosos ataquem vários países ao mesmo tempo",
+          "originalTitle": "IAs permitem que cibercriminosos ataquem vários países ao mesmo tempo",
+          "summary": "O avanço da inteligência artificial (IA) permite que cibercriminosos coordenem operações complexas com menos recursos e alcancem alvos em diferentes países. Assim ocorre com a campanha BOSSAI, conduzida por um único operador que utilizou agentes de IA para identificar vítimas e administrar a…",
+          "why": "A IA acelera tanto ataques quanto defesas; políticas de uso e monitoramento são essenciais.",
+          "category": "IA e segurança",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/ias-permitem-que-cibercriminosos-ataquem-varios-paises-ao-mesmo-tempo/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-26T17:30:00.000Z",
+          "alsoIn": [],
+          "score": 6.95
+        }
+      ]
+    },
+    {
       "id": "2026-11-26-06h",
       "date": "2026-11-26",
       "slot": "06h",
@@ -818,7 +883,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-26T03:20:58.093Z",
+  "updatedAt": "2026-11-26T18:44:31.173Z",
   "sources": [
     {
       "name": "CISO Advisor",
