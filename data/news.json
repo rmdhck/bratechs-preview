@@ -4,8 +4,27 @@
       "id": "2026-11-27-18h",
       "date": "2026-11-27",
       "slot": "18h",
-      "publishedAt": "2026-11-27T18:36:42.020Z",
+      "publishedAt": "2026-11-27T23:11:04.874Z",
       "items": [
+        {
+          "id": "tLXNhby1wYXVsby8",
+          "title": "TecMundo estará na GambiConf, evento de tecnologia em São Paulo",
+          "originalTitle": "TecMundo estará na GambiConf, evento de tecnologia em São Paulo",
+          "summary": "São Paulo receberá, nos dias 28 e 29 de novembro, mais uma edição da GambiConf , evento que se posiciona na contramão das conferências corporativas tradicionais de tecnologia. Sediada no Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), no Campus Butantã, a conferência se…",
+          "why": "Mudanças legais e ações policiais afetam obrigações e o cenário de ameaças das empresas.",
+          "category": "Regulação e justiça",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/tecmundo-marca-presenca-na-gambiconf-evento-de-tecnologia-em-sao-paulo/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-27T21:15:00.000Z",
+          "alsoIn": [],
+          "score": 8.81
+        },
         {
           "id": "JhdWR1bGVudG9zLw",
           "title": "60% dos principais varejistas online do Brasil não bloqueiam e-mails fraudulentos",
@@ -23,7 +42,7 @@
           },
           "publishedAt": "2026-11-27T18:32:58.000Z",
           "alsoIn": [],
-          "score": 9.49
+          "score": 8.65
         },
         {
           "id": "waXgtZW0tMjAyNy8",
@@ -42,26 +61,7 @@
           },
           "publishedAt": "2026-11-27T15:04:02.000Z",
           "alsoIn": [],
-          "score": 8.53
-        },
-        {
-          "id": "bmEtaW50ZXJuZXQv",
-          "title": "Banco de dados desprotegido expõe quase 2 bilhões de senhas na internet",
-          "originalTitle": "Banco de dados desprotegido expõe quase 2 bilhões de senhas na internet",
-          "summary": "Um banco de dados público, sem senha ou qualquer camada de criptografia, expôs aproximadamente dois bilhões de credenciais de acesso na internet . A descoberta partiu do pesquisador Jeremiah Fowler, que divulgou os detalhes da investigação em um relatório técnico publicado pela empresa ExpressVPN…",
-          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
-          "category": "Vazamento de dados",
-          "severity": "alta",
-          "lang": "pt",
-          "ai": false,
-          "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/banco-de-dados-desprotegido-expoe-quase-2-bilhoes-de-senhas-na-internet/",
-          "source": {
-            "name": "Tecmundo",
-            "home": "https://www.estadao.com.br"
-          },
-          "publishedAt": "2026-11-27T15:00:00.000Z",
-          "alsoIn": [],
-          "score": 7.32
+          "score": 7.88
         }
       ]
     },
@@ -1013,7 +1013,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-27T18:36:42.020Z",
+  "updatedAt": "2026-11-27T23:11:04.874Z",
   "sources": [
     {
       "name": "CISO Advisor",
