@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-27-06h",
+      "date": "2026-11-27",
+      "slot": "06h",
+      "publishedAt": "2026-11-27T03:26:35.234Z",
+      "items": [
+        {
+          "id": "11bWEtc2VtYW5hLw",
+          "title": "Banco do Brasil e Google bloqueiam 77 mil ligações falsas em uma semana",
+          "originalTitle": "Banco do Brasil e Google bloqueiam 77 mil ligações falsas em uma semana",
+          "summary": "O Banco do Brasil (BB) e o Google bloquearam mais de 77 mil chamadas fraudulentas na primeira semana de iniciativa contra o chamado Golpe da Falsa Central. A ferramenta usa recursos de segurança do Android para impedir que criminosos se passem pelo banco ao falsificar o número exibido na tela do…",
+          "why": "Golpes por e-mail e mensagem continuam sendo a porta de entrada mais comum; treinamento e filtros fazem diferença.",
+          "category": "Phishing e golpes",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://olhardigital.com.br/2026/11/26/seguranca/banco-do-brasil-e-google-bloqueiam-77-mil-ligacoes-falsas-em-uma-semana/",
+          "source": {
+            "name": "Olhar Digital",
+            "home": "https://olhardigital.com.br"
+          },
+          "publishedAt": "2026-11-26T22:59:41.000Z",
+          "alsoIn": [],
+          "score": 9.88
+        },
+        {
+          "id": "yaWNhLWxhdGluYS8",
+          "title": "Diebold Nixdorf encerra 2026 com avanços nos setores financeiro e varejista na América Latina",
+          "originalTitle": "Diebold Nixdorf encerra 2026 com avanços nos setores financeiro e varejista na América Latina",
+          "summary": "Diebold Nixdorf destaca desempenho dos negócios, evolução de tecnologias e importância da fábrica brasileira. O post Diebold Nixdorf encerra 2026 com avanços nos setores financeiro e varejista na América Latina apareceu primeiro em CryptoID .",
+          "why": "Mudanças legais e ações policiais afetam obrigações e o cenário de ameaças das empresas.",
+          "category": "Regulação e justiça",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://cryptoid.com.br/mercado-financeiro/diebold-nixdorf-encerra-2026-com-avancos-nos-setores-financeiro-e-varejista-na-america-latina/",
+          "source": {
+            "name": "Crypto ID",
+            "home": "https://cryptoid.com.br"
+          },
+          "publishedAt": "2026-11-26T18:53:14.000Z",
+          "alsoIn": [],
+          "score": 7.23
+        },
+        {
+          "id": "hLXVzYS10b2RheS8",
+          "title": "Grupo hacker ameaça divulgar 166 milhões de registros do USA Today",
+          "originalTitle": "Grupo hacker ameaça divulgar 166 milhões de registros do USA Today",
+          "summary": "O grupo de ransomware n0n incluiu o USA Today, um dos principais jornais dos Estados Unidos, em sua lista de supostas vítimas de ataques cibernéticos e afirma ter obtido aproximadamente 166 milhões de registros de usuários. A reivindicação foi divulgada na quarta-feira (25), acompanhada de uma…",
+          "why": "Ransomware segue como a principal causa de paralisação de operações; backups testados e EDR ativo reduzem o impacto.",
+          "category": "Ransomware",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://itforum.com.br/noticias/grupo-hacker-ameaca-usa-today/",
+          "source": {
+            "name": "IT Forum",
+            "home": "https://itforum.com.br"
+          },
+          "publishedAt": "2026-11-26T12:50:10.000Z",
+          "alsoIn": [],
+          "score": 6.86
+        }
+      ]
+    },
+    {
       "id": "2026-11-26-18h",
       "date": "2026-11-26",
       "slot": "18h",
@@ -883,7 +948,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-26T23:27:12.941Z",
+  "updatedAt": "2026-11-27T03:26:35.234Z",
   "sources": [
     {
       "name": "CISO Advisor",
