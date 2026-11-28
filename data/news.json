@@ -1,6 +1,76 @@
 {
   "editions": [
     {
+      "id": "2026-11-28-12h",
+      "date": "2026-11-28",
+      "slot": "12h",
+      "publishedAt": "2026-11-28T17:16:36.503Z",
+      "items": [
+        {
+          "id": "EtdmF6YW1lbnRvLw",
+          "title": "ChatGPT para Android pode ficar quase tão útil quanto o Gemini, indica vazamento",
+          "originalTitle": "ChatGPT para Android pode ficar quase tão útil quanto o Gemini, indica vazamento",
+          "summary": "Atualmente, você já pode configurar o ChatGPT como assistente digital padrão no seu celular Android, mas ele não faz muito além de responder perguntas em voz ou texto. Contudo, a inteligência artificial (IA) da OpenAI pode em breve ganhar novas capacidades no sistema operacional, conforme sugerem…",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/produto-e-review/chatgpt-para-android-pode-ficar-quase-tao-util-quanto-o-gemini-indica-vazamento/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-28T13:00:00.000Z",
+          "alsoIn": [],
+          "score": 9.41
+        },
+        {
+          "id": "MtY29uc2VsaG9zLw",
+          "title": "Pix 2027 transforma fraude em indicador de risco e leva o tema aos conselhos",
+          "originalTitle": "Pix 2027 transforma fraude em indicador de risco e leva o tema aos conselhos",
+          "summary": "Agenda do Banco Central para 2027 prevê score de fraude em tempo real e redefine responsabilidades no Pix Por Susana Taboas, Cofundadora do Crypto ID e economista Ao longo de 2027, o Banco Central seguirá desenvolvendo um indicador de probabilidade de fraude que será compartilhado com as…",
+          "why": "Golpes por e-mail e mensagem continuam sendo a porta de entrada mais comum; treinamento e filtros fazem diferença.",
+          "category": "Phishing e golpes",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://cryptoid.com.br/artigos-de-opiniao/colunistas/susana-taboas/pix-2027-transforma-fraude-em-indicador-de-risco-e-leva-o-tema-aos-conselhos/",
+          "source": {
+            "name": "Crypto ID",
+            "home": "https://cryptoid.com.br"
+          },
+          "publishedAt": "2026-11-27T18:47:43.000Z",
+          "alsoIn": [],
+          "score": 6.5
+        },
+        {
+          "id": "hcXVlLWhhY2tlci8",
+          "title": "SAP é a mais nova gigante de TI a sofrer ataque hacker",
+          "originalTitle": "SAP é a mais nova gigante de TI a sofrer ataque hacker",
+          "summary": "Gigante alemã investiga intrusão em infraestrutura de código-fonte -GitHub - após relatos de acesso a tokens de autenticação de funcionários.",
+          "why": "Acompanhar o cenário de ameaças ajuda a priorizar investimentos e respostas.",
+          "category": "Ameaças",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://convergenciadigital.com.br/mercado/sap-e-a-mais-nova-gigante-de-ti-a-sofrer-ataque-hacker/",
+          "source": {
+            "name": "Convergência Digital",
+            "home": "https://convergenciadigital.com.br"
+          },
+          "publishedAt": "2026-11-27T20:19:13.000Z",
+          "alsoIn": [
+            {
+              "name": "IT Forum",
+              "link": "https://itforum.com.br/noticias/ataque-hacker-sap-desenvolvimento/"
+            }
+          ],
+          "score": 5.47
+        }
+      ]
+    },
+    {
       "id": "2026-11-28-06h",
       "date": "2026-11-28",
       "slot": "06h",
@@ -1078,7 +1148,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-28T03:02:01.609Z",
+  "updatedAt": "2026-11-28T17:16:36.503Z",
   "sources": [
     {
       "name": "CISO Advisor",
