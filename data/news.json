@@ -1,6 +1,71 @@
 {
   "editions": [
     {
+      "id": "2026-11-28-06h",
+      "date": "2026-11-28",
+      "slot": "06h",
+      "publishedAt": "2026-11-28T03:02:01.609Z",
+      "items": [
+        {
+          "id": "bmEtaW50ZXJuZXQv",
+          "title": "Banco de dados desprotegido expõe quase 2 bilhões de senhas na internet",
+          "originalTitle": "Banco de dados desprotegido expõe quase 2 bilhões de senhas na internet",
+          "summary": "Um banco de dados público, sem senha ou qualquer camada de criptografia, expôs aproximadamente dois bilhões de credenciais de acesso na internet . A descoberta partiu do pesquisador Jeremiah Fowler, que divulgou os detalhes da investigação em um relatório técnico publicado pela empresa ExpressVPN…",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/banco-de-dados-desprotegido-expoe-quase-2-bilhoes-de-senhas-na-internet/",
+          "source": {
+            "name": "Tecmundo",
+            "home": "https://www.estadao.com.br"
+          },
+          "publishedAt": "2026-11-27T15:00:00.000Z",
+          "alsoIn": [],
+          "score": 6.27
+        },
+        {
+          "id": "1kby1nb3Zlcm5vLw",
+          "title": "PF faz operação em MG contra vazamento de senhas do governo",
+          "originalTitle": "PF faz operação em MG contra vazamento de senhas do governo",
+          "summary": "Polícia Federal cumpre mandado em Coronel Fabriciano (MG) na Operação Revelatio contra vazamento de senhas de sistemas públicos O post PF faz operação em MG contra vazamento de senhas do governo apareceu primeiro em Olhar Digital .",
+          "why": "Dados expostos alimentam golpes e fraudes direcionadas; acompanhe comunicados e reforce a autenticação.",
+          "category": "Vazamento de dados",
+          "severity": "alta",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://olhardigital.com.br/2026/11/27/seguranca/pf-faz-operacao-em-mg-contra-vazamento-de-senhas-do-governo/",
+          "source": {
+            "name": "Olhar Digital",
+            "home": "https://olhardigital.com.br"
+          },
+          "publishedAt": "2026-11-27T13:55:02.000Z",
+          "alsoIn": [],
+          "score": 6.18
+        },
+        {
+          "id": "0ZWNhby1kYWRvcy8",
+          "title": "ANPD e CGU lançam guia para conciliar transparência pública e proteção de dados",
+          "originalTitle": "ANPD e CGU lançam guia para conciliar transparência pública e proteção de dados",
+          "summary": "O novo guia da ANPD e da CGU orienta como conciliar transparência e proteção de dados na divulgação de informações públicas pelo Executivo Federal. Um servidor recebe um pedido de acesso a um contrato firmado [...] The post ANPD e CGU lançam guia para conciliar transparência pública e proteção de…",
+          "why": "Acompanhar o cenário de ameaças ajuda a priorizar investimentos e respostas.",
+          "category": "Ameaças",
+          "severity": "media",
+          "lang": "pt",
+          "ai": false,
+          "link": "https://minutodaseguranca.blog.br/anpd-cgu-guia-transparencia-protecao-dados/",
+          "source": {
+            "name": "Minuto da Segurança",
+            "home": "https://minutodaseguranca.blog.br"
+          },
+          "publishedAt": "2026-11-27T06:00:00.000Z",
+          "alsoIn": [],
+          "score": 5.47
+        }
+      ]
+    },
+    {
       "id": "2026-11-27-18h",
       "date": "2026-11-27",
       "slot": "18h",
@@ -1013,7 +1078,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-27T23:11:04.874Z",
+  "updatedAt": "2026-11-28T03:02:01.609Z",
   "sources": [
     {
       "name": "CISO Advisor",
